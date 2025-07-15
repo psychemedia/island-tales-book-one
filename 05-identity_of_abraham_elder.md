@@ -12,7 +12,7 @@ Elder used the preface of the book to provide some background, or so we are led 
 
 > It may appear singular that the present little volume, intended to illustrate the antiquities and traditions of the people of the Isle of Wight, should come from the pen of a stranger; and that the tales it contains should have been collected during the space of a short summer ramble. Fortune, however, has favoured me much, and I take this opportunity of returning my thanks to my friend, the well-known and justly celebrated antiquary, Mr. Winterblossom, for his most valuable contributions, without which this collection of Tales and Legends would have been but chaff.
 
-Rather unusually,  Mr Winterblossom's credentials are proved by what he has *not* acheived, specifically, publishing a collection of tales himself:
+Rather unusually,  Mr Winterblossom's credentials are proved by what he has *not* achieved, specifically, publishing a collection of tales himself:
 
 > I must confess that I am rather a collector, compiler, or editor; though vanity (as some would term it) has induced me to call myself the author of the present work. I am but the wisp of straw that ties the fagot together. But it is not altogether vanity in me either : for I have repeatedly, though in vain, urged Mr. Winterblossom to undertake the task. But he said that he had once spent many years and infinite labour in preparing a work of deep erudition for the press. The public was ungrateful, and the work still remains unsold. Printer's ink he would never meddle with again ; and then, added he with emphasis, taking me by the arm, " the printer will be paid, whether the work sells or not".
 
@@ -24,15 +24,26 @@ To compile such a work, however, Elder suggests he would benefit from local assi
 
 > Being a stranger to the island, — during the short time I may be able to bestow upon a visit next summer, I may perhaps overlook many things that ought to be recorded with care. I should therefore feel under obligation to any one who will call my attention to any antiquity, tale, or tradition connected with the island; — directing their communication to A. Elder, Esq., author of " Tales and Legends of the Isle of Wight," under cover to his publishers, Messrs. Simpkin, Marshall, and Co., or to Mr. French, bookseller, Newport.
 
-A second volume of tales did not appear, or at least, not in a single volume. However, several tales did appear, throughout 1839 and 1840, in *Bentley's Miscellany*, a literary magazine founded in 1836. The first editor of *Bentley's Miscellany* is perhaps better know today as an author in his own right, a certain Mr Charles Dickens, whose book Oliver Twist was originally serialised in that magazine.
+Although a second *volume* of tales did not appear, a second *edition* of *Tales and Legends* was published in 1843. THis edition contained several additional tales that had also appeared throughout 1839 and 1840, in the literary magazine *Bentley's Miscellany*. The first editor *Bentley's Miscellany*, which was first published in 1836, is perhaps better known today as an author in his own right: a certain Mr. Charles Dickens, whose book Oliver Twist was originally serialised in that magazine. Dickens, who was born in Portsmouth, is known to have visited the Island in September, 1838, and returned again for a longer stay in the summer of 1849. It is interesting to speculate whether he had met up with one of his contributing authors on that earlier visit. As the following letter from volume one of *The Pilgrim Edition* of *The Letters of Charles Dickens* shows, Dickens' mind was at least partly on the job even if he was on holiday, although he was, perhaps, looking forward to getting home?!
+
+> To Richard Bentley, [10] September [1838]
+> *Ventnor, Isle of Wight. | Monday Evening, Septr. 9th*
+> My Dear Sir,
+> I have received a letter with some double or treble postage tacked to it from one "Omega" *[an unidentifed contributor whose to the Miscellany had been declined in Notices to Correspondents in April, 1838]* relative to some german translations. This Omega is an impertinent gentleman who has done me the favour to write a continuation of Pickwick and ask me to father it. In case you should hear from him again, I think it best to let you know that I have written him a reply, stating that I do not wish to accept his papers, firstly because the greater part of them are too long, and secondly because you do not require translations from new Contributors — the strong probability being (this I have *not* told him) that they have appeared somewhere else before.
+> 
+> I shall be home, please God, on Wednesday Evening. Shall I see you this week?
+> 
+> Faithfully Yours
+> 
+> Charles Dickens
 
 The tale of the Godshill legend, included in this volume, was originally published in *Bentley's Miscellany*.
 
-## Who Was Abraham Elder?
+## Who Was Abraham Elder?
 
 In 1873, scholarly story collector Joseph Jacobs' published *More English Fairy Tales*, his second collection of English fairy tales. The volume included a version of Elder's legend relating to the Pied Piper of Newtown, a story that appears to have made its first appearance in *Tales and Legends of the Isle of Wight* in 1839.
 
-Whether the legend was a "true" one is a story for another day, but the publication of tale brought some attention to to who the real author might actually be, Abraham Elder having been identified as a *nom de plume*.
+Whether the legend was a "true" one is a story for another day, but the publication of tale brought some attention as to who the real author might actually be, Abraham Elder having been identified as a *nom de plume*.
 
 In the August 30th, 1873, issue of *Notes & Queries*, [Vol 12 Iss 296](https://archive.org/details/sim_notes-and-queries_1873-08-30_12_296/page/168/mode/2up), a 19th century periodical, published weekly since November 3rd, 1849, which acted as a _"Medium of Intercommunication for Literary Men, Artists, Antiquaries, Heralds"_, the following query appeared:
 
@@ -64,11 +75,11 @@ The correspondent also seems to be of a different opinion to R.G.D. as to when t
 >
 > W. H. Long. 120, High-street, Portsmouth, December 22, 1893.
 
-However, a reponse that did make it in time to be included in the [Saturday 23 December 1893](https://www.britishnewspaperarchive.co.uk/viewer/bl/0001960/18931223/040/0003) edition of the *Isle of Wight County Press*, p3, was more certain of Abraham Elder's identity:
+However, a response that did make it in time to be included in the [Saturday 23 December 1893](https://www.britishnewspaperarchive.co.uk/viewer/bl/0001960/18931223/040/0003) edition of the *Isle of Wight County Press*, p3, was more certain of Abraham Elder's identity:
 
 > ABRAHAM ELDER.
 >
-> To the Editor of of Wight County Press. Sir,
+> To the Editor of the Isle of Wight County Press. Sir,
 >
 > In reply to the inquiry of your correspondent R.G.D., I can state that author of the "Tales and Legends of the Isle of Wight" was the late Hon. Augustus Moreton, M.P. for Gloucestershire, who wrote the book under the name of Abraham Elder when living with his uncle, Col. Moreton, about that time at Bembridge. —Yours truly. W.W. Osbourne, Bembridge, IW., Dec. 21. 1893
 
@@ -78,9 +89,9 @@ It seems the Editor of the Isle of Wight County Press was happy to assertion, as
 
 Born in June, 1804, the Hon. Augustus Henry Moreton Macdonald of Largie (born Augustus Moreton) was the younger brother of Henry Reynolds-Moreton, 2nd Earl of Ducie, and son of Thomas Reynolds-Moreton, 1st Earl of Ducie, and Lady Frances, daughter of Henry Herbert, 1st Earl of Carnarvon. He was elected as a Member of Parliament for Gloucestershire West in 1832 and then for Gloucestershire East between 1835 and 1841. A campaigner for homeopathy, he had published various works under his own name, including *Civilisation, or, a Brief Analysis of the Natural Laws that Regulate the Numbers and Condition of Mankind* in 1836 and *Thoughts on the Corn laws, addressed to the working classes of the county of Gloucester* in 1839.
 
-If we accept W.W. Osbourne's suggestion that Arbaham Elder was, in fact, the Hon. Augustus Moreton, M.P, a claim mildly supported by W. H. Long's suggestion of possible names, then what evidence can we find of the honourable gentlemen on the island?
+If we accept W.W. Osbourne's suggestion that Abraham Elder was, in fact, the Hon. Augustus Moreton, M.P, a claim mildly supported by W. H. Long's suggestion of possible names, then what evidence can we find of the honourable gentlemen on the island?
 
-From the [local records](https://www.british-history.ac.uk/vch/hants/vol5/pp156-170), we can probably vouch that his uncle did indeed live on the Island:
+From a brief mention in [*A History of the County of Hampshire*: Volume 5, ed. William Page (London, 1912](https://www.british-history.ac.uk/vch/hants/vol5/pp156-170), we can probably vouch that his uncle did indeed live on the Island:
 
 > Bembridge.
 >
@@ -93,7 +104,7 @@ We also see from a news report in the *Hampshire Telegraph* of [Monday 19 Octobe
 > Honourable A. MORETON, M.P. Chairman
 >
 > Proposed by Mr. John DENNET, and seconded by John Newman:
-> 1. That this meeting deeply sensible of the important and valuable assistance rendered to the Educaton ofthe Children of the Poor by the Rev. Sir Henry Thompson, Bart. in not only erecting the School House at his own expense, and paying the salaries of the the School ilaster and Mistress, but also for his unwearied personal attention to the moral and religious instructions of the Inhabitants generally, do hereby tender him, their ergrateful thanks, anld express their grateful and sincerest wishes for his future welfare and happiness.
+> 1. That this meeting deeply sensible of the important and valuable assistance rendered to the Education of the Children of the Poor by the Rev. Sir Henry Thompson, Bart. in not only erecting the School House at his own expense, and paying the salaries of the School Master and Mistress, but also for his unwearied personal attention to the moral and religious instructions of the Inhabitants generally, do hereby tender him, their grateful thanks, and express their grateful and sincerest wishes for his future welfare and happiness.
 >
 > ...
 >

@@ -1,13 +1,36 @@
-# Other Storynotes collections
+# Other Storynotes collections
 
+This work is just one of several storynotes collections compiled as part of the process associated with my finding and developing stories, both traditional tales *and* historical tales.
 
-As well as the short storynotes included in this collection, I am also collating more significant story collections on specific incidents or matters of history with an Isle of Wight theme.
+Other storynotes collections include, but are not limited to, the following.
 
-On the Loss of the Eurydice: HMS Eurydice foundered off Dunnose point in 1878. This collection includes contemporary news reports and memorial poems, as well as short asides on the building of Sandown pier and reclamation of Brading harbour, both of which were works in progress at the time.
+- __Island Storynotes__
+  - *A Legend of Godshill*
+  - *A Legend of Puckaster Cove*
+  - *A Legend of Pepperpot*
+  - *A Legend of Newtown*
+  - *A Shanklin Tale: The Three Little Pigs*
+  - *On the Loss of the Eurydice*
+  - *Immorality and Vice in 1850s Newport*
+  - *Young Mr Hambrough and the Ardlamont Affair*
+  - *The Spithead Mutiny*
+  - ... contact the author for forthcoming titles...
 
-On the Trail of the Sin Eater: pursuing a 19th century correspodence debate regarding the Welsh tradition — or not! — of the sin-eater;
+- *On the trail of the Sin-Eater*
+- __Protest Days, Rebellion Nights__
+  - *The Tale of Benjamin Topham*
+  - *The Tale of James Towle*
+  - ... contact the author for forthcoming titles...
 
-Story Notes — Technical Recipes: developing a range of search tools over traditional stories and story types.
+- __Traditional Tales (Variants)__
+  - *Hudden, and Dudden, and Donald O'Neary*
+  - *The Blacksmith and the Devil*
+  - *The Raggle Taggle Gypsy*
+  - *Godmother Death*
+  - ... contact the author for forthcoming titles...
 
-ISland Storynotes
+Please contact the author for more information about how to get hold of any of these works.
+
+Email: `monty.storyteller@gmail.com`
+Web: `montystoryteller.org`
 
