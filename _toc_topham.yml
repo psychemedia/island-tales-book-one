@@ -1,0 +1,14 @@
+# Table of contents file
+format: jb-book
+root: _storynotes
+options:
+  maxdepth: 1
+chapters:
+- file: 20_preface_topham
+  options:
+    numbered: false
+- file: 21_topham_1811
+- file: 22_topham_1812
+- file: 23_topham_1816
+- file: 24_tale_of_benjamin_topham
+

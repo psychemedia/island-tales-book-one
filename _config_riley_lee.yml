@@ -1,0 +1,25 @@
+
+title: The Unjustified Detention of Riley and Lee
+author: Tony "Monty" Hirst
+copyright: "2025" 
+only_build_toc_files: true
+
+parse:
+  myst_dmath_double_inline: true
+
+sphinx:
+  config:
+    #html_copy_source: false
+    latex_elements:
+      papersize: a5paper
+      pointsize: 12pt
+      preamble: |
+        \input{../../th_custom_preamble.tex}
+        
+  extra_extensions:
+
+latex:
+  latex_documents:
+    targetname: riley_and_lee.tex
+  use_jupyterbook_latex: true
+  latex_engine: xelatex

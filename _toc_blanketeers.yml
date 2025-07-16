@@ -1,0 +1,13 @@
+# Table of contents file
+format: jb-book
+root: _storynotes
+options:
+  maxdepth: 1
+chapters:
+- file: 50_preface_blanketeers
+  options:
+    numbered: false
+- file: 51_march_of_the_blanketeers
+- file: 52_blanketeers_march_1817
+
+

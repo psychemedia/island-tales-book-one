@@ -41,6 +41,10 @@ sphinx:
           \markboth{#1}{}%
         }
 
+        % size of backtick couriered font
+        \renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
+        \renewcommand{\sphinxupquote}[1]{#1}
+        
         \makeatletter
         \fancypagestyle{normal}{
             \fancyhf{}

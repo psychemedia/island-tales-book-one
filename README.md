@@ -4,6 +4,8 @@ Island Tales, Book 1
 
 BUILD:
 
+Force a page break: `$\pagebreak$`
+
 https://github.com/tbroadley/spellchecker-cli\
 
 spellchecker -l en-GB  --files  *.md --dictionaries _dictionary_godshill.txt  > spellingreport.txt

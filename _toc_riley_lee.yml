@@ -1,0 +1,11 @@
+# Table of contents file
+format: jb-book
+root: _storynotes
+options:
+  maxdepth: 1
+chapters:
+- file: 00-godshill-preface
+  options:
+    numbered: false
+- file: 62_march_1817
+

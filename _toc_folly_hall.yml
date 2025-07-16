@@ -1,0 +1,13 @@
+# Table of contents file
+format: jb-book
+root: _storynotes
+options:
+  maxdepth: 1
+chapters:
+- file: 30_preface_folly_hall
+  options:
+    numbered: false
+- file: 31_telling_pentrich-rising
+- file: 32_folly-at-folly-hall
+
+
