@@ -1,6 +1,6 @@
 # Afterword
 
-If you do make it up to the Church, and browse the noticeboard there, you're as likely as not to see a poster for a flower festival, or a jumble sale, perhaps, as well as sundry other church notices.
+If you do make it up to the hill to Godshill Church, and browse the noticeboard there, you're as likely as not to see a poster for a flower festival, or a jumble sale, perhaps, as well as sundry other church notices.
 
 But for one visitor, John Hassell, writing in the second volume of his two volume work, *Tour of the Isle of Wight*, published in 1790, and which you can find nowadays in the Castle Museum library (*by appointment*) at Carisbrooke Castle, or via the [Internet Archive](https://archive.org/details/bim_eighteenth-century_tour-of-the-isle-of-wigh_hassell-j_1790_2/page/n121/mode/2up?), there was something rather more unusual posted there. After noting damage to two of the gable ends resulting from the 1178 lightning strike, Hassell recounts his experience of entering the Church (p.88): *[u]pon our entering the porch we observed abstracts from several acts of parliament fixed against the door, and among them one that excited both our curiosity and risibility;*
 

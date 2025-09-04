@@ -6,7 +6,7 @@ exclude_patterns: [page-numbers]
 
 When approaching the village of Godshill, on the Isle of Wight, using the road from nearby Shanklin, you might not realise there is a Church in the village at all. If making your way up from Whitwell, a glance across the fields will reveal the Church arising above what looks like a small copse of trees, before it disappears out of sight again. And for visitors arriving via the Newport road will catch a glimpse of the Church ahead of them, before losing sight of it altogether as they enter the village.
 
-If you do manage to escape the clutches of the tea rooms and the miniature village, and make your way up the hill past the chocolatier, you will find a much quieter old village, and the Church itself.
+If you do manage to escape the clutches of the tea rooms and the miniature village, and make your way up the hill past what was in recent times a chocolatier's shop, you will find a much quieter old village, and the Church itself.
 
 How the Church came to be up there on the top of the hill is a matter of legend, and this short volume brings together several different tellings of it, pulled from the archives: a tall tale from the pseudonymous Abraham Elder (1839), a poetical version from Percy G. Stone (1912), and several tourist guide versions dating back to the nineteenth century.
 

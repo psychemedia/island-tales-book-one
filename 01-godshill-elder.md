@@ -1,12 +1,12 @@
 # Legends of the Isle of Wight: Godshill
 
-__*As originally told by Abraham Elder, in [ *Bentley's Miscellany*, volume 6, 1839](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/255/mode/1up?q=godshill).*__
+__*As originally told by Abraham Elder, in [ *Bentley's Miscellany*, volume 6, 1839](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/255/mode/1up?q=godshill). The tale can also be found in the second edition of Elder's "Tales and Legends of the Isle of Wight", publiched in 1843, copies of which are available for inspection by appointment in the Castle Museum library at Carisbrooke Castle.*__
 
 Having received a letter from Captain Nosered, of Violet Cottage, Ventnor, containing an invitation for Mr. Winterblossom and myself to spend the day with him, stating at the same time that he had a tale for me connected with that neighbourhood, very curious, and well-authenticated, which he wished to show me; as the captain was an old friend of mine, we accepted the invitation, and set out in a car together the next day.
 
 "Pray, sir," said I, as we went along,"what is that church that I see yonder perched up at the top of a hill?"
 
-" Godshill," answered the antiquary.
+"Godshill," answered the antiquary.
 
 " Godshill! Pray can you inform me how it got that name? It cannot be because it is nearer to heaven than the country round it."
 
@@ -62,7 +62,7 @@ Having received a letter from Captain Nosered, of Violet Cottage, Ventnor, conta
 
 "'What can the man mean?' said the architect, when the little man from the top of the hill stopped to take breath.
 
-" Why, it is just what I thought,' said one of the masons; 'there must be two fields somehow or other so exactly alike, that we must have mistaken the one for the other.'
+"'Why, it is just what I thought,' said one of the masons; 'there must be two fields somehow or other so exactly alike, that we must have mistaken the one for the other.'
 
 "'I can assure you,' said our friend the franklin, putting in his word, 'that, although he appears a little excited at present, he is a very sensible, respectable, pious man; but what he is talking about I cannot imagine.'
 

@@ -1,4 +1,4 @@
-# Historical Note: Puckaster Cove
+# Historical Notes
 
 According to William Henry Davenport Adams, author of the rather splendidly entitled 1884 work, *Nelson's Handbook to the Isle of Wight: its history, topography and antiquities: with notes upon its principal seats, churches, manoral houses, legendary and poetical associations, geology and picturesque localities*, the natural landing site of Puckaster Cove might well have played an important role in the export of Cornish tin from the Island:
 
@@ -8,14 +8,14 @@ According to William Henry Davenport Adams, author of the rather splendidly enti
 
 Adams also reveals that the church registers at Niton bears testament to a royal visitor:
 
-> *The following entry is of historical value:— "July the 1st, Anno Domini 1675, Charles II., King of Great Britain, France, and Ireland, etc., came safely ashore at Puckaster, after he had endured a great and dangerous storm at sea.*
+> *The following entry is of historical value:— "July the 1st, Anno Domini 1675, Charles II, King of Great Britain, France, and Ireland, etc., came safely ashore at Puckaster, after he had endured a great and dangerous storm at sea.*
 
 In *The Undercliff of the Isle of Wight*, John L. Whitehead also suggests that in millenia past, Puckaster Cove played an important role in the Island's export business:
 
 > *An early writer states "That the Roman fleets cruised in the Channel or stationed themselves at the Isle of Wight." Inferentially the one place having a name, evidently Roman in its derivation, situated on the south side of the island, associated with the foregoing statement, must have been at Puckaster. It would be interesting to learn when the modern name was first used. The place is first mentioned in a survey of Niton, taken 6 James I (1608), where a "close" of eight acres is called Puckester. [Aug. Off., Miscl Books, vol. 431, ff. 32-47.] The allied name of Puckwell occurs in 1602, applied to a smaller enclosure. A later and more exhaustive survey was taken in 1799, when a small farm on the sea front in the immediate vicinity, "Ward's" or "Weird's" farm, has an enclosure of eleven acres named Port Castor, whilst an adjoining farm—Buddle—is described as being near Port Castor.*
 > 
 > *The name of Buddle, given to the farm where the tin mart was situated, is singularly suggestive, meaning, in mining phraseology, "a large square frame of boards used in washing metalliferous ore."
-"The tin mart Itself," says Mr. Kell, "was situated in a most sheltered spot in a part of the Niton fields, near to Puckaster, where the tin merchants might draw up their carts and arrange their sales with the foreign purchasers." The metal was afterwards shipped on to the Phoenician galleys from the natural harbour in the cove, now nearly effaced by the Channel waves. This cove was probably "large enough in those days to harbour a Roman fleet which was under the command of the "Comes Littoris Saxonici," or "Count of the Saxon shore."*
+"The tin mart Itself," says Mr. Kell, "was situated in a most sheltered spot in a part of the Niton fields, near to Puckaster, where the tin merchants might draw up their carts and arrange their sales with the foreign purchasers." The metal was afterwards shipped on to the Phoenician galleys from the natural harbour in the cove, now nearly effaced by the Channel waves. This cove was probably "large enough in those days to harbour a Roman fleet which was under the command of the 'Comes Littoris Saxonici,' or 'Count of the Saxon shore.'"*
 > 
 > *A line of castles had been built and garrisoned by a Roman legion, which was placed under the command of the Count in the 4th century.*
 > 
@@ -25,17 +25,23 @@ Returning to Adams', let's see in a bit more detail what he has to say about the
 
 > *For Diodorus Siculus, the Greek historian, also speaks of an island, named Ictta, whither the Britons conveyed the tin dug from the mines of Cornwall — as to a central depot — until it could be removed to France, and afterwards dispersed over the Continent.*
 > 
-> *The Greek historian [see Diod. Sicul. V. 2] also records that this tin was conveyed from the mainland in carts, "at low tide all being dry between it and the island," and from this passage, and from a reference immediately preceding it, to the promontory of Bolerium (the Land's End), it has been conjectured that St, Michael's Mount is really the Ictis alluded to by Diodorus Siculus. But a recent writer [see Journ. Brit. Arch. Assoc.] has attempted to demonstrate that the ancient Ictis is the modem Wight, and we offer a brief summary of his arguments for the consideration of the reader:—*
+> *The Greek historian [see Diod. Sicul. V. 2] also records that this tin was conveyed from the mainland in carts, "at low tide all being dry between it and the island," and from this passage, and from a reference immediately preceding it, to the promontory of Bolerium (the Land's End), it has been conjectured that St, Michael's Mount is really the Ictis alluded to by Diodorus Siculus. But a recent writer [see Journ. Brit. Arch. Assoc.] has attempted to demonstrate that the ancient Ictis is the modern Wight, and we offer a brief summary of his arguments for the consideration of the reader:—*
 > 
-> *I. It is true that now, at low water, no cart could cross from shore to shore ; but then it is evident that great natural changes have taken place in the configuration of the northern coast of the island since the days of Diodorus Siculus; and it is well known that formerly between Anglesea and the mainland lay certain shallows, though now the Menai waters render it inaccessible to the pedestrian.*
+> *I. It is true that now, at low water, no cart could cross from shore to shore; but then it is evident that great natural changes have taken place in the configuration of the northern coast of the island since the days of Diodorus Siculus; and it is well known that formerly between Anglesea and the mainland lay certain shallows, though now the Menai waters render it inaccessible to the pedestrian.*
 
 > *II. There is evidence in the local appellations that a great highway, or main road, once traversed the island from Gurnard Bay — through Rue Street, Gonneville and Carisbrooke — to Niton, where may even now be traced the remains of a large Celtic encampment. Close to Niton is Puckaster Cove, a natural harbour, well adapted to shelter the light craft of the Greek and Phoenician merchants who traded with the British for their valuable metal.*
-
-$\pagebreak$
-
+> 
 > *III. The Greek Ictis may evidently be traced in the Latin Vectis, and this similarity of sound may be accepted as no inconsiderable proof of the validity of our argument.*
 > 
 > *IV. And there is conclusive evidence that St. Michael's Mount could never have been the Ictis of the tin-merchants, because — in the Celtic era — it was not an island, even at high water. Florence of Worcester says, "It was originally enclosed, in a very thick wood, distant from the sea six miles," and its separation from the mainland only occurred, according to the Saxon Chronicle, in 1099.
 For these reasons, then, we think it may finally be concluded that the Isle of Wight was the ancient Ictis, and the great depot of the famous tin trade.*
 
 Perhaps in the framing of Elder's tale, there is some surfacing of a folk memory of a (fairy) fort, or of finding golden coins, or other valuable metals, along the beach at Puckaster? Or perhaps Elder just made the whole tale up completely?!
+
+Whitehead also remarks on the association of St Radegund with the area:
+
+> The parish of Whitwell comprised, in the Undercliff extension, the three estates of Old Park, Mirables, and Wolverton, belonging to the De Estur family. A member of this family built and endowed the north chapel for the use of the tenants on their Undercliff estates, and dedicated it to St. Radegund — the patron saint of the De Estur family.
+
+He also tells something of her story:
+
+> St. Radegund was a German princess, daughter of Bortaire, King of rhuringia, but living in France for many years, having been taken captive at the age of ten, and falling to the share of Clotaire, King of Soissons, was married to him, an unwilling bride, at eighteen. The riotous court life of that period caused the princess to withdraw from the court, and being of an ascetic frame of mind, to devote her time and fortune to the relief of the suffering poor around her. On her brother being violently put to death the princess claimed her liberty, and after passing from one religious house to another she finally proceeded to take the veil, a.d. 594, at Poitiers, within the domains of her husband, who gave to her the land on which a nunnery might be built, and money sufficient for all her need. These large funds were devoted to the maintenance of the nunnery with its two hundred inmates, mostly drawn from the highest ranks. In her humility the office of abbess was declined, the lady being content to perform the lowliest, meanest, and hardest duties of the big household. Despite this Radegund was no less a queen in her convent, for she ruled over the community, prescribing the rigorous measures for prayers and fasting with the necessary recreations. Her tender care for the lepers under her charge called forth the most urgent remonstrances. Notwithstanding the terrible and continued austerities she practised, the princess lived to be nearly seventy, and, after her death, was sincerely mourned over and laid to rest, hard by the convent of which she had been the Superior for thirty years or more, "honoured in life and mourn’d in death."

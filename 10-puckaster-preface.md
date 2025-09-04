@@ -11,11 +11,11 @@ According to A. D. Mills' *The Place-names of the Isle of Wight*, the name of Pu
 
 Mills also suggests that the nearby Puckwell Farm, apparently recorded in 1461 as *Pokewell*, derives in part from the Old English *wella*, to give us *“the string or stream haunted by a goblin"*.
 
-If we are to go in search of fairy stories from the Isle of Wight, then — *real* fairy stories — we should start by looking for tales set around the location of Puckaster Cove.
+If we are to go in search of fairy stories from the Isle of Wight, then — *real* fairy stories — we should, perhaps, start by looking for tales set around the location of Puckaster Cove.
 
-And we should, perhaps, also consult the “honourable" Mr. Abraham Elder, teller of fantastic tales and legends about the Isle of Wight. Consulting the first edition of his book of that same name, *Tales and Legends of the Isle of Wight*, published in 1839, we see no reference to any legend of Puckaster Cove, although it does appear in the second edition of 1843 (a copy of this work can be viewed *by appointment* in the Caste Museum library collection at Carisbrooke Castle). The story can also be found in the pages of *Bentley's Miscellany*.
+And we should also consult the "honourable" Mr. Abraham Elder, teller of fantastic tales and legends about the Isle of Wight. Consulting the first edition of his book of that same name, *Tales and Legends of the Isle of Wight*, published in 1839, we see no reference to any legend of Puckaster Cove, although it does appear in the second edition of 1843 (a copy of this work can be viewed *by appointment* in the Caste Museum library collection at Carisbrooke Castle). The story can also be found in the pages of *Bentley's Miscellany*, a nineteenth literary magazine published under the editorship of a certain Mr Charles Dickens.
 
-Here, then, is that tale re-published, along with my own version of it, as told as part of the *‘Tis Tales* storytelling set, *Island Tales*.
+Here, then, is that tale re-published, along with my own version of it, originally told as part of the *‘Tis Tales* storytelling set, *Island Tales* at Ventnor Fringe, 2022.
 
 --Tony "Monty" Hirst  
 Apse Heath, September 2022.

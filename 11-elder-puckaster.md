@@ -1,12 +1,12 @@
 # A Legend of Puckaster
 
-__*As originally told by Abraham Elder, *A Legend of Puckaster*, in Bentley's Miscellany, [volume 5](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/368/mode/2up?), 1839.*__
+__*As originally told by Abraham Elder, *A Legend of Puckaster*, in Bentley's Miscellany, [volume 5](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/368/mode/2up), 1839. *The footnotes also appeared in the original version.*__
 
 A LEGEND OF PUCKASTER,  
 ISLE OF WIGHT.  
 BY ABRAHAM ELDER, ESQ.
 
-John Kann was a labouring man, living in the parish of Whitewell; and, in the good old times, when fairies danced, was said to have been particularly favoured by them. This was a matter of considerable importance at the time, for he lived in a neighbourhood where they were most numerous and active. `[Burton, in his Anatomy of Melancholy, tells us that "terrestrial devils are those lares, genii, fauns, satyrs, wood-nymphs, foliots, fairies, Robin Goodfellows, trulli, &c. which, as they are most conversant with men, so they do them much harm. These are they that dance on heaths and ftreens, as Lavater thinks with Trithemius, and as Olaus Magnus adds, leave that green circle which we commonly find in plain fields. They are sometimes seen by old women and children. Hieron. Pauli, in his description of the city of Bercino, in Spain, relates how they have been familiarly seen near that town, about fountains and hills. "Sometimes," saith Trithemius, "they lead simple people into the recesses of the mountains, andshew them wonderful sights, &.c." Giraldus Cambrensis gives instance of a monk of Wales that was so deluded. Paracelsus reckons up many places in Germany where they do usually walk about in little coats, some two feet long. — See Anatomy of Melancholy, 15th ed. p. 124.]`
+John Kann was a labouring man, living in the parish of Whitewell; and, in the good old times, when fairies danced, was said to have been particularly favoured by them. This was a matter of considerable importance at the time, for he lived in a neighbourhood where they were most numerous and active. `[Burton, in his Anatomy of Melancholy, tells us that "terrestrial devils are those lares, genii, fauns, satyrs, wood-nymphs, foliots, fairies, Robin Goodfellows, trulli, &c. which, as they are most conversant with men, so they do them much harm. These are they that dance on heaths and greens, as Lavater thinks with Trithemius, and as Olaus Magnus adds, leave that green circle which we commonly find in plain fields. They are sometimes seen by old women and children. Hieron. Pauli, in his description of the city of Bercino, in Spain, relates how they have been familiarly seen near that town, about fountains and hills. "Sometimes," saith Trithemius, "they lead simple people into the recesses of the mountains, and shew them wonderful sights, &.c." Giraldus Cambrensis gives instance of a monk of Wales that was so deluded. Paracelsus reckons up many places in Germany where they do usually walk about in little coats, some two feet long. — See Anatomy of Melancholy, 15th ed. p. 124.]`
 
 Mr. Puck himself, as it was very well known at the time, used frequently to hold his court, and lead his midnight revels on a spot by the sea-side not above a mile from his house. It was a wild uncultivated place, covered with rocks, and bogs, and holes, and briers. It was generally known when he was at home by a small light being seen dancing about at midnight over the rough ground. This the neighbours used to call "Friar Rush's lantern," or "Puck's little star": the latter name, however, was the most common.
 
@@ -18,7 +18,7 @@ Where do you think he took him to? To the very place where the grass was so smoo
 
 "Gracious me!" said John Kann. "You are not going to build here! Are you not afraid of Puck's little star? By St. Radegund you are making a fool of me!" `[St. Radegund appears to have been the patroness saint of Whitewell. There was anciently a chapel dedicated to her there.]`
 
-"I'm not making a fool of you at all," said he; "but, the fact is, now that I am going to be married, I must get a house of my own to live in; besides, this would be a nice healthy place for the children when they come."
+"I'm not making a fool of you at all," said he, "but, the fact is, now that I am going to be married, I must get a house of my own to live in; besides, this would be a nice healthy place for the children when they come."
 
 "But ain't you afraid of Puck?"
 
@@ -34,13 +34,17 @@ Where do you think he took him to? To the very place where the grass was so smoo
 
 "Why, then, I will just tell you. The fairies give them gin to prevent them growing any bigger, and then carry them off, and put an old wizen fairy in their place. I have known the thing happen often and often before. That child of Sukey Grundle's, you know, that was always crying and squealing, that was never her child at all, but just an old fairy. Her own little darling is no doubt at this moment doing the dirty work for some of the queer creatures in Fairy-land, scrubbing, and dusting, and slaving, and feeding their pigs, and, no doubt, getting a whop on the head every now and then with a broomstick; and, I will tell you what; it's of no use your settling here, just for the purpose of providing for your family by getting your children apprenticed out to the fairies. It's no saving at all, for they always leave one of their own sort, that eats twice as much, and is, besides, very mischievous, in its place. You had better not interfere with Puck's little star."
 
-Well, John Kann's neighbour took his advice; and, moreover, asked John to his wedding-feast, which took place a day or two afterwards. John passed a very merry evening; and it was late and very dark before he started to return home. There were no roads in this part of the island in those days; so finding one's way home at night was not always an easy matter. Luckily, however, for John, a friend of his, who lived near, had started just before with a lantern, and John followed the light, which was some way on before him, singing to himself as he went along.
+$\pagebreak$
 
-Up-hill and down-hill, over rough and smooth, John Kann followed the light: but, somehow or other he did not recognise any part of the road as he went along. "Maybe the ale was strong, and I am a little fuddled like, though I do not feel so," thought he to himself. "Maybe, all this time I have been following a wrong person with a lantern." However, it was of no use stopping then, as he did not at all know where he was; so he followed on, and on, and on. The ground grew rougher, sometimes up-hill, sometimes downhill, amongst brambles, and rocks, and holes, but there was a firm good path under his feet all the while. When, all of a sudden a new idea flashed across his mind. "Maybe it 's Puck's little star that I have been walking after all this while. What fun!" thought he to himself.
+Well, John Kann's neighbour took his advice; and, moreover, asked John to his wedding-feast, which took place a day or two afterwards. John passed a very merry evening; and it was late and very dark before he started to return home. There were no roads in this part of the island in those days, so finding one's way home at night was not always an easy matter. Luckily, however, for John, a friend of his, who lived near, had started just before with a lantern, and John followed the light, which was some way on before him, singing to himself as he went along.
+
+Up-hill and down-hill, over rough and smooth, John Kann followed the light: but, somehow or other he did not recognise any part of the road as he went along. "Maybe the ale was strong, and I am a little fuddled like, though I do not feel so," thought he to himself. "Maybe, all this time I have been following a wrong person with a lantern." However, it was of no use stopping then, as he did not at all know where he was; so he followed on, and on, and on. The ground grew rougher, sometimes up-hill, sometimes downhill, amongst brambles, and rocks, and holes, but there was a firm good path under his feet all the while. When, all of a sudden a new idea flashed across his mind. "Maybe it's Puck's little star that I have been walking after all this while. What fun!" thought he to himself.
 
 At length the light seemed to stand still, and John Kann walked up to it. However, as he came nearer, the light seemed to grow paler and smaller; and, when he got close to it, it was no bigger or brighter than a glow-worm's tail, so he was left all in the dark; but just then the moon glided out from behind a cloud, and showed him that he was on the very spot where the grass was smooth, and the fairy rings were, and where his neighbour wanted to have built his house.
 
 As he stood still he thought he heard the sound of music, and a multitude of tiny voices singing together in chorus. He held his breath, and listened. He could clearly distinguish the following words,
+
+$\pagebreak$
 
 "John Kann— John Kann  
 Is a very nice man:  
@@ -60,11 +64,11 @@ And to dance on his toe,
 As round we go.  
 As round we go."
 
-$\pagebreak$
-
 "I don't see how I can manage to dance with you," said John, "without treading upon a good many of you, and crushing you to pieces; for you see I am at least twice as big as all of you put together."
 
 Here little Master Puck put in his word.
+
+$\pagebreak$
 
 "John Kann — John Kann,  
 You great big man,  
@@ -90,20 +94,16 @@ Upon the groun'
 John Kann,  
 You tall man."
 
-$\pagebreak$
-
 John Kann nodded assent, and squatted himself upon the turf without more ado. Puck immediately climbed up on his knee, and then reaching up as high as he could, he caught hold of the lowest button of John's waistcoat, and then scrambled up a little higher. At length he got one of his feet firmly planted upon the edge of his waistcoat-pocket, and resting the other upon one of his buttons, he said,
 
 "Stoop, Mr. Kann,  
 You tall man."
 
-John bowed his head as he was directed, and Puck immediately crammed some of the dust up his nostrils. John Kann gave a loud sneeze, so violent, indeed, that it shook his hat clean off his head, to John's great dismay, for he thought he must have crushed to death at least a dozen of his little friends. However, they all got out of the way quicker than thought; and, standing in a wide circle round him, they set up a loud shout the moment they heard him sneeze,and kept on cheering for some time. But, what was the most wonderful part of the whole, it seemed to him that the moment he sneezed he grew considerably smaller, shorter, and thinner; yet, as his clothes fitted him just as close, they must have grown smaller at the same time.
+John bowed his head as he was directed, and Puck immediately crammed some of the dust up his nostrils. John Kann gave a loud sneeze, so violent, indeed, that it shook his hat clean off his head, to John's great dismay, for he thought he must have crushed to death at least a dozen of his little friends. However, they all got out of the way quicker than thought; and, standing in a wide circle round him, they set up a loud shout the moment they heard him sneeze, and kept on cheering for some time. But, what was the most wonderful part of the whole, it seemed to him that the moment he sneezed he grew considerably smaller, shorter, and thinner; yet, as his clothes fitted him just as close, they must have grown smaller at the same time.
 
-Mr. Puck administered another pinch of the powder. John Kann sneezed again, and instantly became a size smaller. The fairies setup another shout, hurrahing like wild things. Another pinch — another hurrah, — John had got again a size smaller. This was repeated until John Kann, had become a little thing, like his neighbours; upon which he said to his friend Puck,
+Mr. Puck administered another pinch of the powder. John Kann sneezed again, and instantly became a size smaller. The fairies set up another shout, hurrahing like wild things. Another pinch — another hurrah, — John had got again a size smaller. This was repeated until John Kann, had become a little thing, like his neighbours; upon which he said to his friend Puck,
 
 "Please, Mr. Puck, don't make me any smaller, or I shall grow into nothing at all, or I might run a dangerous risk of being eaten up by accident by a field-mouse."
-
-$\pagebreak$
 
 To which Mr. Puck answered,
 
@@ -118,7 +118,7 @@ They immediately prepared for a dance round the ring, and a tiny piper seated hi
 
 "I dare say, sir, that this is just the reason that one sees the fairy rings on the down not always completely round. A snail has been crawling about, or there has been something else that the fairies do not like to cross."
 
-They had not danced long in the new circle before a little fairy came fluttering into the centre of the ring, pushing the dancers to the right and left, looking himself quite violet-colour in the face, probably from fear. He shouted as loud as he could, A rat! a rat! a rat!" Mr. Puck then shouted,
+They had not danced long in the new circle before a little fairy came fluttering into the centre of the ring, pushing the dancers to the right and left, looking himself quite violet-colour in the face, probably from fear. He shouted as loud as he could, "A rat! a rat! a rat!" Mr. Puck then shouted,
 
 "To arms, fairies! to arms!  
 No war's alarms  
@@ -126,9 +126,9 @@ Shall make us fear."
 
 The dancers left their ring, and ran about in all directions in search of arms. Some provided themselves with spears formed of the reed stems of the grass, carefully breaking off the ear that the shaft might be more pointed; some seized the dry prickles of gorse, which they held in their hands like daggers; others provided themselves with the crooked thorns of the brier.
 
-Scouts were sent out in all directions, and small parties of the most active fairies were ordered to advance, and form pickets indifferent directions. Then followed a few minutes of awful suspense. John Kann was terribly frightened, and he wished with all his heart, that he had never come near the fairy-ground, or become acquainted with Mr. Puck. He at first thought of hiding himself under his own hat. But, to his utter dismay there was not room enough to creep under, and he found that he was not near strong enough to lift up the brim. At length he found a stalk of ragwort, and he contrived to climb up nearly as high as the yellow flower on the top. But this was by no means a place of safety. What, thought he, could be more likely than that the rat should smell him out, and just bite off his leg, to see how he tasted: or the rat might pull him down; and begin nibbling at his head, till he had ate him all up, like a raddish.
+Scouts were sent out in all directions, and small parties of the most active fairies were ordered to advance, and form pickets in different directions. Then followed a few minutes of awful suspense. John Kann was terribly frightened, and he wished with all his heart, that he had never come near the fairy-ground, or become acquainted with Mr. Puck. He at first thought of hiding himself under his own hat. But, to his utter dismay there was not room enough to creep under, and he found that he was not near strong enough to lift up the brim. At length he found a stalk of ragwort, and he contrived to climb up nearly as high as the yellow flower on the top. But this was by no means a place of safety. What, thought he, could be more likely than that the rat should smell him out, and just bite off his leg, to see how he tasted: or the rat might pull him down, and begin nibbling at his head, till he had ate him all up, like a raddish.
 
-To be eaten up by a lion or a tiger was, to be sure, a dreadful thing; but then there was something grand in the idea. It would be put in all the newspapers; and, no doubt an account of it would be engraved upon his tomb; and so his name be handed down to posterity. But, to think of having been sniffed with brown powder till one was only a few inches high, and then to be nibbled up by a rat like a piece of toasted cheese. It was horrible! horrible! If the rat really did come that way, he considered his death as certain. No rat of any sense or taste would think of eating one of those flimsy gossamer fairies, when he could find a real bit of substantial flesh and blood. Besides, if he should prefer a fairy, they were so much more active, and would be sure to get out of the way. The fairies, too, knew all the footpaths, and nooks and corners, amongst the blades of grass. And, as for what Mr. Puck called his arms, whenever saw a more complete farce in his life. What would an old rat care for spears made of grass straw, or swords made of briar thorns. It was most ridiculous, and at the same time, most melancholy.
+To be eaten up by a lion or a tiger was, to be sure, a dreadful thing; but then there was something grand in the idea. It would be put in all the newspapers; and, no doubt an account of it would be engraved upon his tomb; and so his name be handed down to posterity. But, to think of having been sniffed with brown powder till one was only a few inches high, and then to be nibbled up by a rat like a piece of toasted cheese. It was horrible! horrible! If the rat really did come that way, he considered his death as certain. No rat of any sense or taste would think of eating one of those flimsy gossamer fairies, when he could find a real bit of substantial flesh and blood. Besides, if he should prefer a fairy, they were so much more active, and would be sure to get out of the way. The fairies, too, knew all the footpaths, and nooks and corners, amongst the blades of grass. And, as for what Mr. Puck called his arms, he never saw a more complete farce in his life. What would an old rat care for spears made of grass straw, or swords made of briar thorns. It was most ridiculous, and at the same time, most melancholy.
 
 While John Kann was thus musing to himself, and lamenting his hard fate, he was suddenly roused by a great bustle among the fairies. The cause was evident:— one of the advanced-posts had been carried, and the picket had been driven in, and a number of fairies rushed back among the others, waving their arms above their heads, and shouting,
 
@@ -190,8 +190,6 @@ And, in midst of all
 A round puff-ball.  
 For John's sitting."
 
-$\pagebreak$
-
 Presently a warm air came up from the sea, and the circle round which they had been dancing, was dotted all along with little round white spots. These kept growing larger and larger. John Kann could plainly perceive that they were young mushrooms coming up. They grew, and they grew, and they grew. It was quite surprising to see how fast they rose out of the earth. Presently they began to spread out their table-shaped tops, and gradually displayed their slender stalks. While all this was going on round the ring a large catsup mushroom and a puff-ball were gradually swelling themselves out side by side in the middle.
 
 John Kann observed all this with astonishment, and his curiosity was still more excited at the puff-ball, which was diligently puffing itself out.
@@ -226,7 +224,7 @@ We rode on the ripple of the stream.
 And we soothed the lover in his dream;  
 We wove the vision so soft and bright,  
 That he clasp'd his pillow in delight.  
-We sought the coucn of his lady love,  
+We sought the couch of his lady love,  
 And hover'd in the air above.  
 You would have laugh'd. Sir Puck, to see  
 How we tickled her fantasy.  
@@ -276,8 +274,6 @@ And brought him here to you."
 
 `* Moising, — from the verb to moise, or trickle down, whence we get the word moist, or moised. The other parts of the verb are, however, not yet obsolete in the Isle of Wight.`
 
-$\pagebreak$
-
 Here there was a kind of buzzing and struggling heard among the long grass just by, and Cobweb's three assistants were seen dragging in by main force an unfortunate honey-bee. John Kann jumped down from his puff-ball, and ran to see the fun. As he went up close to the bee. Cobweb hollowed out,
 
 "Take care of his sting,  
@@ -291,7 +287,7 @@ However, he just looked round for curiosity sake, to see what the fairy alluded 
 
 Could he move his wings? Flip flap, flip flap — they worked beautifully.
 
-Could he fly with them ? He tried. Up he went into the air as light as a thistle-down.
+Could he fly with them? He tried. Up he went into the air as light as a thistle-down.
 
 Should he fly home at once? Dangerous — dangerous, thought he; there are such a terrible number of hawks about. So, after taking two or three spiral skimmings in the air, he alighted down again upon his own proper puff-ball.
 
@@ -304,16 +300,16 @@ Some others of Puck's attendants had emptied the bee's honey-bag into an acorn-c
 To which Mr. Puck replied,
 
 "As we cannot get more victuals.  
-We must make the fairies little.;  
+We must make the fairies little.  
 When we have become small  
 The supper it will do for Fairies all,  
 Grow small.  
 John Kann remains taller:  
 Dust him till he gets smaller."
 
-Immediately the operation of throwing fine brown dust up Kann's nose was resumed, till he sneezed and sneezed, and grew smaller and smaller. At length, in consequence of his head diminishing in size, the foxglove cap that he wore slipped down over his face. A fairy by his side helped him to take it off, and to put on the flower of a blue harebell, which fitted his head to a T. Upon looking round,he perceived that all the fairies had changed their foxglove caps for bluebells, — their charms apparently having no power to reduce the size of real flowers, although they could vary their own statures at pleasure.
+Immediately the operation of throwing fine brown dust up Kann's nose was resumed, till he sneezed and sneezed, and grew smaller and smaller. At length, in consequence of his head diminishing in size, the foxglove cap that he wore slipped down over his face. A fairy by his side helped him to take it off, and to put on the flower of a blue harebell, which fitted his head to a T. Upon looking round, he perceived that all the fairies had changed their foxglove caps for bluebells, — their charms apparently having no power to reduce the size of real flowers, although they could vary their own statures at pleasure.
 
-A very merry supper they had. Mr. Puck and his friends ate and drank, and danced and sung. It struck John Kann that many of them were getting a cup too much, and that Mr. Puck himself was beginning to be a little fuddled. However, before things went any farther, Mr. Puck nodded to a fairy that was standing close to him, with the long flower of a honeysuckle in his hand; upon which the fairy put the honeysuckle flower to his mouthy as if it had been a horn, and began trumpeting away upon it. John Kann could not say that the sound was exactly like a trumpet; but certainly it was more like a trumpet than anything else that he knew of. The moment the merry company heard the trumpet they left off feasting and singing, and became instantly silent, grave, and sober.
+A very merry supper they had. Mr. Puck and his friends ate and drank, and danced and sung. It struck John Kann that many of them were getting a cup too much, and that Mr. Puck himself was beginning to be a little fuddled. However, before things went any farther, Mr. Puck nodded to a fairy that was standing close to him, with the long flower of a honeysuckle in his hand; upon which the fairy put the honeysuckle flower to his mouth, as if it had been a horn, and began trumpeting away upon it. John Kann could not say that the sound was exactly like a trumpet; but certainly it was more like a trumpet than anything else that he knew of. The moment the merry company heard the trumpet they left off feasting and singing, and became instantly silent, grave, and sober.
 
 Mr. Puck then turned to John Kann, and said,
 
@@ -344,31 +340,31 @@ When walking on the strand,
 Half the day beneath the sea,  
 And half upon the land.  
 You shall know when the morning sun  
-Is shining fierce and bright.
+Is shining fierce and bright.  
 Where the treasure must be won  
-By the gold grains glistening bright.
+By the gold grains glistening bright.  
 The spot is marked by a stone  
 Pierced right through and through.  
 Talk not of this — go there alone,  
-Or bid the treasure adieu."
+Or bid the treasure *adieu*."
 
 John Kann here stood up again, and made another bow. Upon which Mr. Puck said,
 
 "Puff-ball, turn brown—  
 John Kann, sit down."
 
-The puff-ball immediately began changing from its snow-white colour, as if it had been baking in an oven, and the outer skin became shrivelly all over, and when John Kann sat down again, it burst as if its covering had been no stronger than a cobweb, and immediately he was enveloped in a cloud of dust, which got into his eyes and made them smart so, that for a long time he was completely blinded. When, by dint of rubbing and rubbing his eyes, he began to see a little again, he was surprised to find ail his fairy companions flown, and himself restored to his original size, sitting alone on the little level spot on the hill side, which has been described before. The sun was shining bright and clear.
+The puff-ball immediately began changing from its snow-white colour, as if it had been baking in an oven, and the outer skin became shrivelly all over, and when John Kann sat down again, it burst as if its covering had been no stronger than a cobweb, and immediately he was enveloped in a cloud of dust, which got into his eyes and made them smart so, that for a long time he was completely blinded. When, by dint of rubbing and rubbing his eyes, he began to see a little again, he was surprised to find all his fairy companions flown, and himself restored to his original size, sitting alone on the little level spot on the hill side, which has been described before. The sun was shining bright and clear.
 
 "I will have a look for the gold, at any rate," thought he, "before I return home."
 
 He descended the hill, and walked along the shore, as he had been directed. The tide was low, and the rays of the morning sun were reflected brightly on the wet sand. After a little search, he found a large flint stone with a hole in it, lying by itself upon the level smooth sand. The sand thereabouts certainly did appear to glisten rather more than elsewhere; he took some up in his hand, and found a number of little bright grains amongst it.
 
-This is gold, then," said he to himself, as he cut a caper in the air from .very joy. "What a lucky fellow I am! or, as my friend Mr. Puck would say,
+"This is gold, then," said he to himself, as he cut a caper in the air from very joy. "What a lucky fellow I am! or, as my friend Mr. Puck would say,
 
 "John Kann,
 Lucky man!
 
-It strikes me that, if I had lived in fairy society a little longer, I should have learned to talk poetry myself. But how am I to become possessed of all this gold without anybody else finding it out? — for Mr. Puck said particularly, that if anybody else found it out, there would be no more gold for me."
+"It strikes me that, if I had lived in fairy society a little longer, I should have learned to talk poetry myself. But how am I to become possessed of all this gold without anybody else finding it out? — for Mr. Puck said particularly, that if anybody else found it out, there would be no more gold for me."
 
 After turning the matter over in his mind for some time, he thought that his best plan would be to make a show of turning fisherman and collector of shells. So he bought a few lobster-pots, and set them about among the rocks in the neighbourhood, and kept a collection of ornamental shells in his window for sale; which was indeed a very poor trade in those days, whatever it may be now.
 

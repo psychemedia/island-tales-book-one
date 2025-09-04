@@ -14,7 +14,7 @@ Elder used the preface of the book to provide some background, or so we are led 
 
 Rather unusually,  Mr Winterblossom's credentials are proved by what he has *not* achieved, specifically, publishing a collection of tales himself:
 
-> I must confess that I am rather a collector, compiler, or editor; though vanity (as some would term it) has induced me to call myself the author of the present work. I am but the wisp of straw that ties the fagot together. But it is not altogether vanity in me either : for I have repeatedly, though in vain, urged Mr. Winterblossom to undertake the task. But he said that he had once spent many years and infinite labour in preparing a work of deep erudition for the press. The public was ungrateful, and the work still remains unsold. Printer's ink he would never meddle with again ; and then, added he with emphasis, taking me by the arm, " the printer will be paid, whether the work sells or not".
+> I must confess that I am rather a collector, compiler, or editor; though vanity (as some would term it) has induced me to call myself the author of the present work. I am but the wisp of straw that ties the fagot together. But it is not altogether vanity in me either: for I have repeatedly, though in vain, urged Mr. Winterblossom to undertake the task. But he said that he had once spent many years and infinite labour in preparing a work of deep erudition for the press. The public was ungrateful, and the work still remains unsold. Printer's ink he would never meddle with again; and then, added he with emphasis, taking me by the arm, "the printer will be paid, whether the work sells or not".
 
 We also get a hint from the preface that if the current work meets with some success, Elder would happily produce a second volume:
 
@@ -24,7 +24,7 @@ To compile such a work, however, Elder suggests he would benefit from local assi
 
 > Being a stranger to the island, — during the short time I may be able to bestow upon a visit next summer, I may perhaps overlook many things that ought to be recorded with care. I should therefore feel under obligation to any one who will call my attention to any antiquity, tale, or tradition connected with the island; — directing their communication to A. Elder, Esq., author of " Tales and Legends of the Isle of Wight," under cover to his publishers, Messrs. Simpkin, Marshall, and Co., or to Mr. French, bookseller, Newport.
 
-Although a second *volume* of tales did not appear, a second *edition* of *Tales and Legends* was published in 1843. THis edition contained several additional tales that had also appeared throughout 1839 and 1840, in the literary magazine *Bentley's Miscellany*. The first editor *Bentley's Miscellany*, which was first published in 1836, is perhaps better known today as an author in his own right: a certain Mr. Charles Dickens, whose book Oliver Twist was originally serialised in that magazine. Dickens, who was born in Portsmouth, is known to have visited the Island in September, 1838, and returned again for a longer stay in the summer of 1849. It is interesting to speculate whether he had met up with one of his contributing authors on that earlier visit. As the following letter from volume one of *The Pilgrim Edition* of *The Letters of Charles Dickens* shows, Dickens' mind was at least partly on the job even if he was on holiday, although he was, perhaps, looking forward to getting home?!
+Although a second *volume* of tales did not appear, a second *edition* of *Tales and Legends* was published in 1843. This edition contained several additional tales that had also appeared throughout 1839 and 1840, in the literary magazine *Bentley's Miscellany*. The first editor of *Bentley's Miscellany*, which was first published in 1836, is perhaps better known today as an author in his own right: a certain Mr. Charles Dickens, whose book *Oliver Twist* was originally serialised in that magazine. Dickens, who was born in Portsmouth, is known to have visited the Island in September, 1838, and returned again for a longer stay in the summer of 1849. It is interesting to speculate whether he had met up with one of his contributing authors on that earlier visit. As the following letter from volume one of *The Pilgrim Edition* of *The Letters of Charles Dickens* shows, Dickens' mind was at least partly on the job even if he was on holiday, although he was, perhaps, looking forward to getting home?!
 
 > To Richard Bentley, [10] September [1838]
 > *Ventnor, Isle of Wight. | Monday Evening, Septr. 9th*
@@ -92,6 +92,8 @@ Born in June, 1804, the Hon. Augustus Henry Moreton Macdonald of Largie (born Au
 If we accept W.W. Osbourne's suggestion that Abraham Elder was, in fact, the Hon. Augustus Moreton, M.P, a claim mildly supported by W. H. Long's suggestion of possible names, then what evidence can we find of the honourable gentlemen on the island?
 
 From a brief mention in [*A History of the County of Hampshire*: Volume 5, ed. William Page (London, 1912](https://www.british-history.ac.uk/vch/hants/vol5/pp156-170), we can probably vouch that his uncle did indeed live on the Island:
+
+$\pagebreak$
 
 > Bembridge.
 >

@@ -15,8 +15,6 @@ In *Legends and Lays of the Wight* first published in 1912, local architect, aut
 > The hill is the spot for it's open and high,  
 > While the rest called them fools, and said No.  
 
-$\pagebreak$
-
 > And while they thus argued for valley or hill  
 > In the weary parochial way.  
 > The Devil drew near, in the guise of a Friar  
@@ -36,7 +34,7 @@ $\pagebreak$
 > Turned about and came over his side.  
 >  
 > Satan reckoned, if tucked away snug out of sight,  
-> 'Twould be more out of mind of the Saints.'  
+> 'Twould be more out of mind of the Saints.  
 > Besides, with the muddy and waltorish ways,  
 > They would sure be more likely to curse than to praise,  
 > Thus their prayers would get choked with complaints.  
@@ -53,15 +51,15 @@ $\pagebreak$
 > Beelzebub shan't have it all his own way'  
 > And he thoughtfully pulled at his beard.  
 
-$\pagebreak$
-
 > So the masons hewed stones and then set them in
 place,  
 > Chipping hard till the daylight had sped.  
 > Then gathering their tools, with a sigh of content  
 > At the work they had done, gaily homewards they went  
 > To supper, and after to bed.  
->  
+
+$\pagebreak$
+
 > Next morning betimes they arose with the lark  
 > And set forth to work with a will.  
 > But lo! when they got there, 'twas level with ground.  
@@ -99,7 +97,7 @@ place,
 > From our labour we never shall rest.'  
 >  
 > When the very next morning the same thing occurred.  
-> 'Stop, mates : let it be. The whole thing's  
+> 'Stop, mates: let it be. The whole thing's  
 > A puzzle too tough for my nob;  
 > The Building Committee must settle this job:  
 > It's a bit too perplexing for me.'  
@@ -127,15 +125,15 @@ place,
 > — This has been one of your narrowest shaves ±  
 > Come hither, Beelzebub, subtlest of knaves,  
 > And your recompense duly receive."  
-
-$\pagebreak$
-
+> 
 > Saint Boniface here gripped him tight by the neck,  
 > "With, None of your sly monkey tricks"  
 > Then, catching him fair with the point of his toe,  
 > He lifted the Devil a furlong or so  
 > With a couple of right lusty kicks.  
-> 
+
+$\pagebreak$
+
 > Whereat the parishioners fell on their knees  
 > And lauded the Saint to the sky.  
 > So Boniface blessed them in orthodox way.  
@@ -155,7 +153,7 @@ $\pagebreak$
 > Every man of you bearing his part.'  
 >  
 > 'We assure you, good Saint, we will do as you say.  
-> But, ere that you bid us adieu,  
+> But, ere that you bid us *adieu*,  
 > Grant this favour benign, that our newly-built church  
 > — By Beelzebub's guile nearly left in the lurch,  
 > May be titled in honour of you.'  
@@ -166,14 +164,14 @@ $\pagebreak$
 >  Let your church be invoked in the name of each saint  
 > By whom you're accustomed to swear."  
 
-$\pagebreak$
-
 > All humbly they cried, 'It shall be as you wish.  
 > Your Saintship; we'll work with a will  
 > And the site where the building in future will stand,  
 > According to God's and your saintly command,  
 > Shall be known by the name of GODSHILL.'  
-> 
+
+$\pagebreak$
+
 > The church there to-day on the top of the mound  
 > Lifts its pinnacled Tower to sky  
 > While a mile to the South Devil's Acre is found  
