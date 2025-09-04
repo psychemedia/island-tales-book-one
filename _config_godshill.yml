@@ -24,6 +24,8 @@ sphinx:
           % \setsansfont{Arial}
           % \setmonofont{Courier New}
 
+          \setlength{\headsep}{10pt}
+
           \clubpenalty=10000
           \widowpenalty=10000
           \displaywidowpenalty=10000
@@ -35,7 +37,7 @@ sphinx:
           {}
           {0pt}
           {\Huge}
-        \titlespacing*{\chapter}{0pt}{0pt}{40pt}
+        \titlespacing*{\chapter}{0pt}{0pt}{20pt}
 
         \renewcommand{\chaptermark}[1]{%
           \markboth{#1}{}%
