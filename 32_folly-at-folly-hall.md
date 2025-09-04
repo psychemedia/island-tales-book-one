@@ -308,7 +308,7 @@ Procuring Riotous Assemblies to be held.—Thomas Riley, tailor, 60, Crosland Mo
 
 # On Trial — York Lammas Assizes, 1817
 
-Although the York Lammas Assizes did not have the full weight of the Special Commission assembled at York Castle for the trial of the Huddersfield Luddites several years, the outcome of that porceedings must surely have weighed on the minds of the Folly Hall men, their families, and their communities.
+Although the York Lammas Assizes did not have the full weight of the Special Commission assembled at York Castle for the trial of the Huddersfield Luddites several years, the outcome of that proceedings must surely have weighed on the minds of the Folly Hall men, their families, and their communities.
 
 ```{admonition} Yorkshire Lammas Assizes, July 1817
 :class: dropdown
@@ -625,7 +625,7 @@ Kemp's examination was also read, but there was no material variation in it, fro
 
 The four following witnesses were examined, to contradict various parts of the evidence of the wife of Clement Dyson.
 
-*Mr. J. Robinson* lives at Honley; knows the wife of Clement Dyson, who is tenant to the witness; she was at his house on Wednesday, the 11th of June—his wife said unto her in his hearing, "You have had these people at your house I understand ;" she said they had. "Don't you know any of them?" rejoined his wife. Mrs. Dyson replied, "No, I do not know one of them—they were all strangers to me." Witness said the object of Mrs. Dyson was to ask if he had sent Sykes for a gun, which he had borrowed: he replied he had. He has known Sykes twenty years, who occasionally has been in his employment, and he always considered him as a very honest man. Witness also spoke favourably of Donkersley's character.
+*Mr. J. Robinson* lives at Honley; knows the wife of Clement Dyson, who is tenant to the witness; she was at his house on Wednesday, the 11th of June—his wife said unto her in his hearing, "You have had these people at your house I understand?"; she said they had. "Don't you know any of them?" rejoined his wife. Mrs. Dyson replied, "No, I do not know one of them—they were all strangers to me." Witness said the object of Mrs. Dyson was to ask if he had sent Sykes for a gun, which he had borrowed: he replied he had. He has known Sykes twenty years, who occasionally has been in his employment, and he always considered him as a very honest man. Witness also spoke favourably of Donkersley's character.
 
 *Mr. George Holron* is a clothier; lives at Honley; deposed to a conversation with Dyson's wife, about Charles Charlesworth: she told the witness that he (Charlesworth) bad taken up her son, for taking a hang lock from a gate; and that she had been that morning and told him that he was the man to whom she had given the gun upon the door steps, and that it was nobody else. Witness saic, did not say that it was him, but that she had told him so. At another time she told the witness, that she thought she knew Sykes, Donkersley, and Shaw; and upon his asking her why she said before that she knew none of them, she replied, it was because she did not wish to have ill-will among her neighbours. He knows Sykes, Donkersley, and the two Oldhams, they have very good characters.
 
@@ -896,8 +896,6 @@ We are informed that the Derby calendar contains a great number of criminals, an
 
 ```
 
-Another comprehensive report can be found in the *Leeds Intelligencer* of [Monday 04 August 1817](https://www.britishnewspaperarchive.co.uk/viewer/BL/0000268/18170804/018/0003). *(It may be instructive to look for any differences in either reporting, or in tone...)*
-
 Elements of the *Leeds Mercury* report, including Hearnshaw's letter*, were also reprinted elsewhere.
 
 ```{admonition} Trials of the rioters, August 1817
@@ -928,7 +926,7 @@ In reference to the Trials the Yorkshire Rioters, published in our last paper, t
 "I was examined, the 21st of June, by Mr. B. Allen, Magistrate, concerning the Folly-hall fight:— He asked if I could tell him who fir'd first? I told him the cavalry fir'd first, at the Folly Hall Bridge, on the 8th of June. Mr. Allen told me I was mistaken, it was a gun in Manchester-street that I heard. I told him it was not a gun  Manchester-street, it was the gentlemen cavalry: I was certain of it: but they would not put that in my examination. When I was going to be examined by the grand jury, at York, Mr. Thomas Atkinson came to me, and asked me, if would do him a favour? I asked him what it was? He said, he could wish me to say the mob fir'd first and bought a shilling's worth of oranges; and he told me if did not say the mob fired first, I should have four or five evidences against me, namely, Mr. T. Atkinson, Mr. David Alexander, Mr. Allen the magistrate, and George Whitehead the constable. I told the grand jury the truth; I told them the cavalry fired first, and I told them the ball wiz'd close by my head.—They asked me if I was not afraid: I told them I was not. I told them, then, there was about eight or nine of the mob fired, and immediately the cavalry galloped off. The Grand Jury said, they was——, and laugh'd. Saturday, the 26th, a gentleman from London sent for me, Mr. Liblong, Solicitor for the Crown, I think they call'd him, and he asked me what I meant to say when I got into the Court? I told him I meant to speak the truth; I told him I meant to say that the cavalry fir'd first. He told me I was a damned lieing rascal, and said I had had conversation with Buckley, and he had persuaded me to say so. He asked me if I could not as well say the mob fir'd first, say the cavalry fir'd first. Mr. Atkinson likewise told me Buckley had been talking to me, and had persuaded me to say the cavalry fir'd first; and, because I would not say as they wanted, I was never brought up to give my evidence in the Court; and when I made application to Mr. Allinson, the attorney, for something to carry me home, he said he had orders to give me nothing; and Matthew Bradley, clerk to Mr. Allen, said I should be pillor'd, before the 3 months' end, if I did not mind what I was about. And this is the real truth; I am ready to attest it before any man in England. CHARLES HEARNSHAW."
 ```
 
-The *Carlisle Patriot* report also includes a copy of a letter sent to the *Leeds Intelligencer*, and the editor of that publication's response:
+The *Leeds Intelligencer* of [Monday 04 August 1817](https://www.britishnewspaperarchive.co.uk/viewer/BL/0000268/18170804/018/0003) also carried related correspondence, this time from B. Haigh Allen, which was also reprinted in the *Carlisle Patriot*, along with the original editorial comment from the *Leeds Mercury*:
 
 ```{admonition} Vile imputations against the Magistracy, August 1817
 :class: dropdown
@@ -1003,7 +1001,7 @@ We reserve for our next, also, our closing proofs of the innocence of Oliver; an
 
 ```
 
-The Monday, August 04, 1817, edition of the Leeds Intelligencer also included a letter from Thomas Atkinson, dated August 2nd, in response to the *Leeds Mercury*'s publication of Hearnshaw's letter, to the editor of that publication and to which the *Intelligencer* was perhaps copied in. This letter was also reprinted from the *Intelligencer* in the *Carlisle Patriot* article of August 09, 1817.
+The Monday, August 04, 1817, edition of the* Leeds Intelligencer* also included a letter from Thomas Atkinson, dated August 2nd, in response to the *Leeds Mercury*'s publication of Hearnshaw's letter, to the editor of that publication and to which the *Intelligencer* was perhaps copied in. This letter was also reprinted from the *Intelligencer* in the *Carlisle Patriot* article of August 09, 1817.
 
 ```{admonition} By way of explanation, August 1817
 :class: dropdown
