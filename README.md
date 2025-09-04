@@ -15,3 +15,21 @@ jb clean .
 jb build --toc _toc_godshill.yml --config _config_godshill.yml --builder pdflatex .
 
 jb build --toc _toc_puckaster.yml --config _config_puckaster.yml --builder pdflatex .
+
+jb build --toc _toc_topham.yml --config _config_topham.yml --builder pdflatex .
+
+
+https://barcode.tec-it.com/
+
+12.36 in x 9.25
+
+---
+
+pandoc tea-tales-logo.md -o teatales_logo_b_on_w.pdf --pdf-engine=xelatex        
+
+magick -density 300  teatales_logo_b_on_w.pdf -alpha off teatales_logo_b_on_w.png
+
+## TO DO
+
+I need an epub route. Maybe start moving everything to quarto???
+
