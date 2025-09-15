@@ -40,6 +40,9 @@ magick -density 300 input.pdf output.tiff
 
 I need an epub route. Maybe start moving everything to quarto???
 
+Need to hack the toc used for pdf?
+
+![](toc_hack_for_epub.png)
  - Export to docx then use amazon kindle pub tool
 
 List fonts on mac: `fc-list : family`
