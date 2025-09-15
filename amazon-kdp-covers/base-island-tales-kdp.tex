@@ -1,0 +1,172 @@
+\documentclass[a4paper,landscape]{article}
+%\usepackage[margin=0pt]{geometry}
+\usepackage[paperwidth=9.250in, paperheight=12.345in, margin=0pt]{geometry}
+\usepackage{xcolor}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fontspec} % XeLaTeX required
+\usepackage{ean13isbn}
+
+\usetikzlibrary{calc} 
+
+\pagestyle{empty}
+
+% ====================
+% DEFAULT SETTINGS (can be overridden)
+% ====================
+
+\providecommand{\leftspinetext}{A Storynotes Publication from montystoryteller.org}
+
+\providecommand{\footertext}{For up to date information regarding the latest Island Tales releases, along with storynotes on other topics and news of upcoming live storytelling appearances, check montystoryteller.org regularly.}
+
+\providecommand{\bookISBN}{9780000000000}
+\providecommand{\bookISBNsize}{SC0}
+
+\providecommand{\bookcoverbackground}{999999}
+\definecolor{backgroundcolor}{HTML}{\bookcoverbackground}
+
+\providecommand{\bookcoverbar}{000000}
+\providecommand{\centralbarwidth}{7cm}
+\providecolor{centralbarcolor}{HTML}{\bookcoverbar}
+
+\providecommand{\leftsidewidth}{10cm}
+\providecommand{\leftsidemargin}{1cm}
+\providecommand{\leftsidetop}{-4cm}
+
+\providecommand{\leftsidetext}{Default left side text}
+\providecommand{\lefttextfont}{\fontsize{14}{16}\selectfont}
+\providecolor{lefttextcolor}{HTML}{FFFFFF}
+
+\providecommand{\rightsidewidth}{12cm}
+\providecommand{\rightsidetop}{4cm}
+\providecommand{\rightsidetext}{Default Right Text}
+\providecommand{\righttextfont}{\fontsize{48}{56}\selectfont\bfseries}
+\providecolor{righttextcolor}{HTML}{FFFFFF}
+
+\providecommand{\leftspinetext}{Default Spine Left}
+\providecommand{\leftspinefont}{\fontsize{16}{18}\selectfont\fontspec{\spinebasefont}}
+\providecolor{leftspinecolor}{HTML}{FFFFFF}
+
+\providecommand{\rightspinetext}{Default Spine Right}
+\providecommand{\rightspinefont}{\fontsize{68}{70}\selectfont\bfseries\fontspec{\spinebasefont}}
+\providecolor{rightspinecolor}{HTML}{FFFFFF}
+
+\providecommand{\footerupdist}{-5.0cm}
+\providecommand{\footerwidth}{\leftsidewidth}
+\providecommand{\footermargin}{\leftsidemargin}
+\providecommand{\footertext}{Default footer text}
+\providecommand{\footerfont}{\lefttextfont} %{\fontsize{10}{12}\selectfont}
+\providecolor{footertextcolor}{HTML}{FFFFFF}
+
+\providecommand{\isbnupdist}{1.5cm}
+\providecommand{\isbnmargin}{6.0cm}
+
+
+\newcommand{\IfNotEmpty}[2]{%
+  \edef\tempcheck{#1}%
+  \ifx\tempcheck\empty
+    % do nothing
+  \else
+    #2%
+  \fi
+}
+
+
+% ====================
+% DRAWING MACRO
+% ====================
+
+% Macro to draw middle line if not disabled
+\providecommand{\drawmiddlelineoff}{%
+    \begin{tikzpicture}[remember picture,overlay]
+      \draw[white, line width=1pt] 
+        (current page.north west) ++(\paperwidth/2,0) -- ++(0,-\paperheight);
+    \end{tikzpicture}%
+}
+
+\newcommand{\drawcover}{%
+\pagecolor{backgroundcolor}
+
+\begin{tikzpicture}[remember picture,overlay]
+    % Page coordinates
+    \coordinate (page center) at (current page.center);
+    \coordinate (page north) at (current page.north);
+    \coordinate (page south) at (current page.south);
+    \coordinate (page west) at (current page.west);
+    \coordinate (page east) at (current page.east);
+    \coordinate (page north west) at (current page.north west);
+    \coordinate (page south west) at (current page.south west);
+    
+    % Central bar coordinates
+    \coordinate (bar left) at ([xshift=-\centralbarwidth/2]page center);
+    \coordinate (bar right) at ([xshift=\centralbarwidth/2]page center);
+    
+    % Draw central vertical bar
+    \fill[centralbarcolor] (bar left |- page north) rectangle (bar right |- page south);
+    
+    % Left side text: centered in column, justified inside
+    \node[anchor=north, text=lefttextcolor, align=justify, text width=\leftsidewidth] 
+        at ($ (page north west) + (\leftsidemargin, \leftsidetop) !0.5! (bar left |- page north) $) {
+        \lefttextfont
+        \leftsidetext
+    };
+    
+    % Right side text centered between central bar and right edge
+    \node[anchor=center, text=righttextcolor, align=left, text width=\rightsidewidth] 
+        at ($ (bar right) !0.5! (page east) + (1.0cm, \rightsidetop) $) {
+        \righttextfont
+        \baselineskip=2em 
+        \rightsidetext
+    };
+    
+    % Left spine text (rotated)
+    \node[anchor=center, text=leftspinecolor, rotate=-90] 
+        at ([xshift=-1.5cm]page center) {
+        \leftspinefont
+        \textit{\leftspinetext}
+    };
+    
+    % Right spine text (rotated)
+    \node[anchor=center, text=rightspinecolor, rotate=-90] 
+        at ([xshift=2.0cm]page center) {
+        \rightspinefont
+        \rightspinetext
+    };
+    
+    % ISBN barcode (safe numeric expansion)
+    \IfNotEmpty{\bookISBN}{%
+        \edef\tmpEAN{\noexpand\EANisbn[ISBN={\bookISBN},\bookISBNsize]}
+        \node[anchor=south west, transform shape, scale=1.0, align=left, fill=white] 
+            at ([xshift=\isbnmargin, yshift=\isbnupdist]page south west) {\tmpEAN};
+    }
+
+    % Footer text
+    %\node[anchor=south west, text width=\footerwidth, align=left, text=footertextcolor] 
+    %    at ([xshift=\footermargin, yshift=\footerupdist]page south west) {
+    %    \footerfont
+    %    \footertext
+    %};
+
+    % Footer text: centered in column, justified inside
+    \node[
+        anchor=south, % bottom center of node at this coordinate
+        text=footertextcolor,
+        align=left,
+        text width=\footerwidth
+    ] 
+    at ($0.5*(page south west -| bar left) + (0, \footerupdist)$) {
+        \footerfont
+        \raggedright
+        \textit{\footertext}
+    };
+    \end{tikzpicture}
+    }
+
+% ====================
+% DOCUMENT START
+% ====================
+\begin{document}
+\drawcover
+\drawmiddlelineoff
+\end{document}

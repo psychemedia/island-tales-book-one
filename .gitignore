@@ -1,2 +1,4 @@
 .DS_Store
 _build/
+amazon-kdp-covers/*.aux
+amazon-kdp-covers/*.log

@@ -1,0 +1,99 @@
+\documentclass[a4paper,portrait]{article}
+\usepackage[margin=0pt]{geometry}
+
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fontspec} % XeLaTeX required
+
+\usetikzlibrary{calc} 
+
+\pagestyle{empty}
+
+% ====================
+% DEFAULT SETTINGS
+% ====================
+
+\providecommand{\bookcoverfooter}{A Storynotes publication from montystoryteller.org}
+
+\providecommand{\bookcoverbackground}{999999}
+\definecolor{backgroundcolor}{HTML}{\bookcoverbackground}
+
+\providecommand{\bookcoverbar}{000000}
+\providecommand{\centralbarwidth}{5cm}
+\definecolor{centralbarcolor}{HTML}{\bookcoverbar}
+
+\providecommand{\rightsidewidth}{12cm}
+\providecommand{\rightsidetop}{4cm}
+\providecommand{\rightsidetext}{Default Right Text}
+\providecommand{\righttextfont}{\fontsize{54}{56}\selectfont\bfseries}
+\definecolor{righttextcolor}{HTML}{FFFFFF}
+
+\providecommand{\rightspinetext}{Default Spine Right}
+\providecommand{\rightspinefont}{\fontsize{92}{94}\selectfont\bfseries}
+\definecolor{rightspinecolor}{HTML}{FFFFFF}
+
+
+\providecommand{\footerupdist}{-10.0cm}
+\providecommand{\footerwidth}{10cm}
+\providecommand{\footermargin}{1cm}
+\providecommand{\footertext}{Default footer text}
+\providecommand{\footerfont}{\fontsize{18}{20}\selectfont\bfseries} %{\fontsize{10}{12}\selectfont}
+\providecolor{footertextcolor}{HTML}{FFFFFF}
+
+
+
+% ====================
+% DRAWING MACRO
+% ====================
+
+\newcommand{\drawcover}{%
+\pagecolor{backgroundcolor}
+
+\begin{tikzpicture}[remember picture,overlay]
+    % Page coordinates
+    \coordinate (page center) at (current page.center);
+    \coordinate (page north) at (current page.north);
+    \coordinate (page south) at (current page.south);
+    \coordinate (page west) at (current page.west);
+    \coordinate (page east) at (current page.east);
+    
+    % Central bar now rooted at left edge
+    \coordinate (bar left) at (page west);
+    \coordinate (bar right) at ([xshift=\centralbarwidth]page west);
+    
+    % Draw vertical bar at left edge
+    \fill[centralbarcolor] (bar left |- page north) rectangle (bar right |- page south);
+    
+    % Right side text centered between bar and right edge
+    \node[anchor=center, text=righttextcolor, align=left, text width=\rightsidewidth] 
+        at ($ (bar right) !0.5! (page east) + (0+1.0cm, \rightsidetop) $) {
+        \righttextfont
+        \baselineskip=2em 
+        \rightsidetext
+    };
+    
+    % Right spine text (rotated)
+    \node[anchor=center, text=rightspinecolor, rotate=-90] 
+        at ($ (bar left) !0.5! (bar right) $) {
+        \rightspinefont
+        \rightspinetext
+    };
+    
+
+\node[anchor=center, text=footertextcolor, align=center, text width=\footerwidth] 
+    at ($ (bar right) !0.5! (page east) + (0, \footerupdist) $) {
+    \footerfont
+    \baselineskip=1.5em
+    \bookcoverfooter
+};
+
+\end{tikzpicture}
+}
+
+% ====================
+% DOCUMENT START
+% ====================
+\begin{document}
+\drawcover
+\end{document}

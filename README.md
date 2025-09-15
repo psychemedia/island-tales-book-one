@@ -29,7 +29,17 @@ pandoc tea-tales-logo.md -o teatales_logo_b_on_w.pdf --pdf-engine=xelatex
 
 magick -density 300  teatales_logo_b_on_w.pdf -alpha off teatales_logo_b_on_w.png
 
+
+
+PDF to image
+
+magick  -density 300 input.pdf output.jpg
+magick -density 300 input.pdf output.tiff
+
 ## TO DO
 
 I need an epub route. Maybe start moving everything to quarto???
 
+ - Export to docx then use amazon kindle pub tool
+
+List fonts on mac: `fc-list : family`
