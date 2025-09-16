@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: _quarto_book
+
+book:
+  title: "A Legend of Puckaster Cove"
+  author: "Tony 'Monty' Hirst"
+  date: ""
+  chapters:
+    - index.qmd
+    - 11-elder-puckaster.qmd
+    - 12-elder-puckaster-reversioned.qmd
+    - 15-puckaster-historical-note.qmd
+
+
+format:
+  pdf:
+    documentclass: book
+    papersize: a5
+    fontsize: 12pt
+    mainfont: "Times New Roman"
+    classoption: [twoside]
+    geometry:
+      - inner=0.9in
+      - outer=0.5in
+      - top=1in
+      - bottom=1in
+    keep-tex: true
+    pdf-engine: xelatex
+    toc-title: "Contents"
+    toc-depth: 1
+    # Include the shared LaTeX styling
+    include-in-header: 
+      - ../shared-book-style.tex
+
+  epub:
+    toc: true
+    epub-cover-image: ../cover_images/puckaster-new-cover-kdp-ebook.jpg

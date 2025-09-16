@@ -1,0 +1,1722 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+  a5paper,
+  twoside]{book}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+    \setmainfont[]{Times New Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[inner=0.9in,outer=0.5in,top=1in,bottom=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+% Shared LaTeX styling for book projects
+% Save as: shared-book-style.tex
+
+% Document initialization (equivalent to your \AtBeginDocument block)
+\usepackage{geometry}
+\AtBeginDocument{
+  \date{}
+  \setcounter{tocdepth}{0}
+  \setcounter{secnumdepth}{0}
+  %\newgeometry{twoside,inner=0.9in,outer=0.5in,top=1in,bottom=1in}
+  
+  % The \headsep sets the distance between header line and body text
+  \setlength{\headsep}{16pt}
+
+  \clubpenalty=10000
+  \widowpenalty=10000
+  \displaywidowpenalty=10000
+
+  \let\origtableofcontents\tableofcontents
+  \renewcommand{\tableofcontents}{%
+    \cleardoublepage
+    \pagestyle{plain}
+    \origtableofcontents
+    \cleardoublepage
+    \pagestyle{normal} 
+  }
+}
+
+% Chapter formatting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {}
+  {0pt}
+  {\Huge}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+
+% Code font size (Sphinx compatibility)
+%\renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
+%\renewcommand{\sphinxupquote}[1]{#1}
+
+% Custom page styles with fancyhdr
+\usepackage{fancyhdr}
+\makeatletter
+\fancypagestyle{normal}{
+    \fancyhf{}
+    \fancyhead[RE]{{\small\textit{\@title}}}
+    \fancyhead[LO]{{\small\nouppercase{\textit{\leftmark}}}}
+    \fancyhead[LE]{{\small\thepage}}
+    \fancyhead[RO]{{\small\thepage}}
+    \fancyfoot[LE,LO,RE,RO]{}
+    \setlength{\footskip}{0pt}
+    \addtolength{\textheight}{20pt}
+    \renewcommand{\headrulewidth}{0.4pt}
+}
+\makeatother
+
+
+\fancypagestyle{plain}{
+    % first page of new chapter
+    \fancyhf{}
+    \fancyfoot[LE,LO,RE,RO]{}
+    \setlength{\footskip}{0pt}
+    \addtolength{\textheight}{20pt}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% New header
+%\usepackage{titling}
+\usepackage{hyperref}
+\newfontfamily\headingfont[]{Gill Sans}
+
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \thispagestyle{plain}
+  \noindent\rule{\linewidth}{1pt}\par
+  \begingroup
+    \hypersetup{pdfauthor={\@author}, pdftitle={\@title}}%
+  \endgroup
+  \begin{flushright}
+    \vspace{48pt}
+    {\headingfont
+    {\fontsize{44pt}{56pt}\selectfont \setlength{\baselineskip}{56pt}%
+    \@title\par}
+    \vspace{96pt}
+    % HACK to handle quote
+    %{\Large \@author}\par
+    {\Large Tony {\textquotesingle}Monty{\textquotesingle} Hirst}\par
+    
+    \vspace{25pt}
+    \@date \par
+
+    }
+  \end{flushright}
+
+  \newpage
+  \thispagestyle{plain}
+  \thispagestyle{empty}
+
+  \makeatletter
+
+  \vspace*{\fill}
+
+  \begin{center}
+  %{\Large \textbf{\@title}}\\[1em]
+  {\large \textbf{\textit{A Storynotes Collection}}}\\[2em]
+  \end{center}
+
+  \vfill
+
+  \begin{center}
+  \large \textit{montystoryteller.org}
+  \end{center}
+
+  \vspace{2cm}
+
+  \begin{center}
+  \textit{Copyright {\copyright} Anthony Hirst, 2025.\linebreak\linebreak This work may include transcripts of nineteenth century newspaper articles contemporary to the events described, sourced from the British Newspaper Archive, and transcribed by the author.\linebreak\linebreak This work may include transcripts of out of copyright works published prior to 1920 sourced from the Internet Archive.\linebreak\linebreak This work may include other openly licensed materials, acknowledged at the point of use.
+  }
+  \end{center}
+
+  \vspace*{\fill}
+
+  \begin{center}
+    \textit{A Storynotes publication from montystoryteller.org}
+  \end{center}
+  \makeatother
+
+  \setcounter{footnote}{0}
+  \let\thanks\relax\let\maketitle\relax
+}
+\makeatother
+
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}}
+
+
+% Apply normal page style (equivalent to fancy in Quarto)
+\pagestyle{normal}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={A Legend of Godshill},
+  pdfauthor={Tony `Monty' Hirst},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{A Legend of Godshill}
+\author{Tony `Monty' Hirst}
+\date{}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Contents}
+{
+\setcounter{tocdepth}{0}
+\tableofcontents
+}
+
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter{Preface}\label{preface}
+
+When approaching the village of Godshill, on the Isle of Wight, using
+the road from nearby Shanklin, you might not realise there is a Church
+in the village at all. If making your way up from Whitwell, a glance
+across the fields will reveal the Church arising above what looks like a
+small copse of trees, before it disappears out of sight again. And for
+visitors arriving via the Newport road will catch a glimpse of the
+Church ahead of them, before losing sight of it altogether as they enter
+the village.
+
+If you do manage to escape the clutches of the tea rooms and the
+miniature village, and make your way up the hill past what was in recent
+times a chocolatier's shop, you will find a much quieter old village,
+and the Church itself.
+
+How the Church came to be up there on the top of the hill is a matter of
+legend, and this short volume brings together several different tellings
+of it, pulled from the archives: a tall tale from the pseudonymous
+Abraham Elder (1839), a poetical version from Percy G. Stone (1912), and
+several tourist guide versions dating back to the nineteenth century.
+
+The volume also includes a contemporary retelling based on Abraham
+Elder's tall tale that I have told as part of the \emph{'Tis Tales} set,
+\emph{Island Tales}, and a brief background note regarding the possible
+identity of Abraham Elder.
+
+As with many local tales and legends, they are best served told. For the
+traditional author of written works, the story, as much as the published
+work, whether a printed book, a digital e-book, an audio book or even
+just an extract in a Sunday supplement, is often something to be
+protected, something that remains under the ownership of the author to
+license and ``perform'' as they see fit. But for the traditional
+storyteller, the product \emph{is} the performance. The stories are
+\emph{passed on}, free to be retold by those who heard them, under
+common, public ownership. Whilst in one sense this volume is a written
+collection that can be read, my greater hope is that it provides you
+with a tale that you can tell on, perhaps even as you visit the village
+of Godshill itself.
+
+--Tony ``Monty'' Hirst\\
+Apse Heath, September 2022.
+
+\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please vist montystoryteller.org}
+
+\bookmarksetup{startatroot}
+
+\chapter{Legends of the Isle of Wight:
+Godshill}\label{legends-of-the-isle-of-wight-godshill}
+
+\textbf{\emph{As originally told by Abraham Elder, in
+\href{https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/255/mode/1up?q=godshill}{\emph{Bentley's
+Miscellany}, volume 6, 1839}. The tale can also be found in the second
+edition of Elder's ``Tales and Legends of the Isle of Wight'', published
+in 1843, copies of which are available for inspection by appointment in
+the Castle Museum library at Carisbrooke Castle.}}
+
+Having received a letter from Captain Nosered, of Violet Cottage,
+Ventnor, containing an invitation for Mr.~Winterblossom and myself to
+spend the day with him, stating at the same time that he had a tale for
+me connected with that neighbourhood, very curious, and
+well-authenticated, which he wished to show me; as the captain was an
+old friend of mine, we accepted the invitation, and set out in a car
+together the next day.
+
+``Pray, sir,'' said I, as we went along,``what is that church that I see
+yonder perched up at the top of a hill?''
+
+``Godshill,'' answered the antiquary.
+
+'' Godshill! Pray can you inform me how it got that name? It cannot be
+because it is nearer to heaven than the country round it.''
+
+``I certainly never heard that reason for it before. I always understood
+that it had been named Godshill in commemoration of a miracle that
+tradition tells us was performed at the building of the church. The
+story, as it is now told, and by many still believed, in the Isle of
+Wight, is as follows:---
+
+``A sum of money having been given by certain pious individuals, whose
+names unfortunately are now lost, for the erection of a church, the
+religious authorities of the Island, under whose direction it was to be
+erected, looked out for a proper site for it. After mature deliberation,
+they fixed upon a spot at the foot of the steep eminence upon which the
+present church stands.
+
+``Having arranged this to their own satisfaction, they sent a messenger
+to the proprietor of the land, informing him that the Bishop of the Isle
+of Wight, after a solemn consultation with a council composed of ancient
+and holy men, having at heart the spiritual welfare of his island flock,
+had at length decided upon conferring upon him the high honour and
+distinction of allowing the church to be built upon his land; and he
+begged him moreover not to be puffed up with pride thereat, but to
+receive the favour thus conferred upon him with all humility and
+gratitude.
+
+``Now it so happened that the owner of this land was a poor franklin (a
+freeholder), of very limited means and a very large family, and moreover
+he was by no means of a religious turn of mind. In his heart he hated
+all priests and monks; he went to sleep at mass when he did attend it;
+fast-day and feast were to him alike; and as for confession, he avoided
+it altogether, --- not because he had nothing to confess, but because he
+was afraid of frightening the priest if he told the truth; and where was
+the good of confession if he told lies.
+
+``There were, however, occasional exceptions to this rule. There was a
+certain jolly wandering friar, who used to visit him occasionally and
+shrive him, without being too particular about trifles; and, besides, he
+used to hear his confession after supper, which tended to make it pass
+off very smoothly. Once, indeed, the friar ordered him a slight penance;
+but then upon that visit he found his landlord's ale a little turned,
+which might in some degree have soured his temper. The franklin used to
+say, that a simmering mug of ale, with a roasted crab bobbing about in
+it, would get him absolution from any sin in the world.
+
+``This being the character of the man who owned the land, it may easily
+be imagined that, although he avoided the first evil of being conferred
+upon him with all the humility and gratitude required of him.
+
+``He did not, however, dare to fly in the face of his powerful
+self-styled benefactors. He hemmed, and hawed, and coughed, and then
+remarked what a splendid site for the church there was just at the top
+of the hill.
+
+``He was informed that that situation had been well considered, and it
+was thought to be too much exposed.
+
+``The franklin then changed his tone, and, looking down to the ground
+with a well-feigned humility, he said to the monk ---
+
+``\,`Father, the fact is, I am a very great sinner; and if the church is
+built upon land belonging to me, it will be erected upon unholy ground.
+I pray you, father, consider this well. My neighbours on both sides are
+pious persons, and their land contains magnificent sites for building
+churches. If you build your church upon their land, it will not stand
+upon unholy ground; and the high honour will be conferred upon a pious
+person, who is worthy to be distinguished by the favour, of the bishop
+and his reverend council.'
+
+``The monk replied, `Your being a sinner is no obstacle, but the
+reverse; for, when the foundation stone is laid, you will receive
+absolution for all your sins, be they ever so black; and as for the land
+being tainted with unholiness, we can consecrate that.'
+
+``The franklin was now sorely puzzled what to say. He muttered something
+about the largeness of his family and the smallness of his farm, and how
+the spot fixed upon was the best bit of the whole, and how he might be
+reduced to poverty.
+
+``The monk, however, turned a deaf ear to all this, affecting either not
+to hear or not to understand the drift of his argument; and so, without
+in the least committing himself by any hint about the possibility of
+compensation, he hied him back to his masters, and told them how, when
+he had delivered his message, the franklin bent his eyes with all
+humility towards the ground, and replied, that he was too great a sinner
+for so high an honour to be conferred upon him.
+
+``In the due course of time the bishop's architect came to survey the
+spot, and trace out the lines of the foundation, and some stones from
+the quarry at Binstead were piled in a heap, ready for the commencement
+of the building. The next morning the architect and the masons made
+their appearance. How great was their astonishment to find not a single
+stone remaining where they had placed it, and not a single peg or mark
+put in by the architect remaining there!
+
+``They stood here for some time, first staring at the bare field, then
+looking at one another, and then staring at the ground again.
+
+``\,`Where are all the building stones gone to?' said one.
+
+``\,`Where are all my pegs that marked out the lines of the foundation?'
+said the architect.
+
+``\,`Where are all the stones and the pegs gone to, Master Franklin?
+What tricks have you been playing us, Master Franklin?' said one of them
+to the owner of the field.
+
+``The franklin looked innocence itself, then opened his eyes and his
+mouth, and raised up his hands in mute astonishment.
+
+``\,`It strikes me' said one of the labourers, scratching his head,
+`that we most just have mistaken our way, and come to the wrong field.'
+
+``\,`That's quite impossible!' said two or three of the others, speaking
+together.
+
+``While they were thus debating, the owner of the land at the top of the
+hill made his appearance among them.
+
+``\,`Is this fair? -- is this right? --- is this honourable?' said he.
+
+``\,`What fair?--- what right?' rejoined the architect. `We do not
+understand you.'
+
+``\,`I know well,' said the man from the top of the hill, `that land is
+oftentimes seized to erect a church upon, without compensation being
+given to the owner; but I ask you, is it not hard, very hard, that the
+foundations of a church should be pegged out, and the stones placed
+ready for the builder, upon my land, without my being told a word about
+it beforehand? Sir, I honour the priesthood and holy men as a good man
+ought; but not when they come like a thief in the night to plunder me of
+my patrimony. Fie! fie! Master Architect. What! --- must you come in the
+night, while I am asleep, to mark out your foundations, and place your
+building-stones all ready to begin with? Why, if I had overslept myself,
+I might almost have found when I awoke my best field converted into
+buildings and churchyards.'
+
+``\,`What can the man mean?' said the architect, when the little man
+from the top of the hill stopped to take breath.
+
+``\,`Why, it is just what I thought,' said one of the masons; `there
+must be two fields somehow or other so exactly alike, that we must have
+mistaken the one for the other.'
+
+``\,`I can assure you,' said our friend the franklin, putting in his
+word, `that, although he appears a little excited at present, he is a
+very sensible, respectable, pious man; but what he is talking about I
+cannot imagine.'
+
+``\,`Look up there,' said the little man from the top of the hill;
+`there they have already brought stones to commence a church with, and
+have actually begun to mark out the direction of the foundations.'
+
+``In consequence, everybody did look up in the direction he pointed, and
+certainly they did perceive the tops of two heaps of stones showing
+themselves above the brow of the hill. The architect and his assistants
+immediately directed their steps there, and, to their great
+astonishment, they found the building-stones disposed in much the same
+order on the top of the hill that they had placed them in the field
+below.
+
+``What was to be done? The bishop had arranged that he should come that
+very afternoon to lay the first stone of the church himself. There was,
+therefore, no time to be lost; so, without speculating further how the
+stones had contrived to get up to the top of a steep hill without
+assistance, they set themselves to work in good earnest to bring them
+down again; and before the appointed time for the bishop's arrival the
+stones were all heaped up as they were before, the architect had pegged
+out the shape of the new church, and a little part of the foundation had
+been dug, ready to receive the first stone.
+
+``Shortly after the hour at which the bishop was expected, a group of
+monks and other ecclesiastics were seen collected together in the
+distance waiting for him. After the lapse of about twenty minutes, the
+dignitary himself riding on a mule, attended by about six or seven
+mounted attendants, joined their inferior brethren, who were awaiting
+him. They now formed themselves into a procession, walking two and two,
+those on foot marching first, then the bishop; his mounted companions
+followed two and two, and a few more attendants on foot brought up the
+rear.
+
+``As they advanced at a slow pace, they chanted a psalm. One half of
+them chanted the first verse, the other half replied to them in a higher
+note, while here and there their united voices swelled into a loud
+chorus.
+
+``The workmen and the peasantry, who were assembled round the destined
+site of the new church, listened with deep devotion to the solemn notes
+of the holy song, now swelling loud, now dying away upon the summer
+wind.
+
+``When the procession arrived at the spot, the monks on foot filed to
+the right and to the left, still raising their voices, and turning up
+their eyes towards heaven. The bishop on his mule now arrived in front,
+and it was expected that he would dismount and offer up a prayer for the
+success of their undertaking. Had he been on foot, there is no doubt but
+that he would have done so; but mules are animals proverbially
+obstinate, delighting in showing that they have a will of their own,
+independent of their master's. So was it in the present instance; for
+the animal, instead of stopping short, as he was directed to do,
+continued to walk leisurely on, till at length he quickened his pace
+into a trot, and he had actually ascended half way up the steep hill in
+front before he could be brought to a full stop. At length the bishop
+returned crestfallen and out of humour, and having taken his appointed
+place, he commenced his prayer for the success of the undertaking,
+resting his knee upon an embroidered footstool, while the rest of the
+congregation knelt upon the ground. After his prayer was concluded, some
+masonic tools and a small silver coin were given to him. He now, with
+the assistance of two masons, deposited the coin, and settled down the
+stone upon it. They chanted a psalm; and when this was concluded, the
+bishop's attendant deacon called for the franklin by name. When he had
+come, the bishop said, `Kneel down.'
+
+``The franklin knelt.
+
+``The bishop then, after praising him for his piety, pronounced a full
+absolution for all his sins, and all the ecclesiastics responded in a
+deep `Amen.' The bishop then gave the whole assembly his parting
+benediction, and the ceremony was at an end.
+
+``As the venerable fathers rode home together, they discussed and
+rediscussed, and commented upon the curious tale of which they had heard
+several versions that morning; how all the building-stones, together
+with the architect's markers and pegs, had been mysteriously conveyed
+away from their allotted spot to the top of a steep hill in the
+neighbourhood. It could not have been chance. If the stones had rolled
+from the top of the hill down to the bottom, it would have been another
+thing; but stones cannot roll up a hill.
+
+``Was it a miracle? Catholic priests in all ages of the world are
+supposed to be oftener preachers than believers of the miracles that
+take place under their own eyes; so, though the possibility of its
+having been a miracle was thrown out once or twice, the majority were
+decidedly against the opinion that a miracle had been worked in the
+present instance.
+
+``Then there was a third supposition. It might have been a trick played
+upon them by some base reprobate. This appeared to them all to be much
+more unlikely than either of the two foregoing suppositions. Where could
+a man be found so utterly wicked as to wish to do such an action?
+Certainly not in the Isle of Wight, so celebrated for its piety. But
+even suppose such a man was found, how was it possible to imagine for a
+moment that he would dare to do it? The church can excommunicate as well
+as bless; besides, people had been burnt alive for sacrilege before;
+then what object could any person possibly have in doing so? It
+certainly could not be merely for the sake of running the chance of
+being burnt alive, with the addition of the curses of the church, and
+the execration of all mankind. Then, again, how could he possibly carry
+his intentions into execution, even if he was mad enough to desire it?
+It could have been no light labour to have carried all the stones up the
+hill; and it was evidently quite impossible to have done it without
+being observed by some of the neighbours; and what neighbour would dare
+to conceal such an action from the Holy Church?
+
+``At length one of the brothers interrupted this discussion, saying, in
+a most solemn tone,
+
+``\,`In the blindness of your hearts, and in the eagerness of your
+talking, yon have altogether forgotten the most important fact of all.'
+
+``\,`What is that?' demanded two or three at once.
+
+``\,`Had it not been for the assistance of two strong men in stopping
+his mule, the bishop himself would have been carried up to the top of
+the hill.'
+
+``It would never have done for the other ecclesiastics to have cast any
+reflections upon the horsemanship of their superior; so it was
+absolutely necessary for them all to come to the conclusion that there
+was something very supernatural and wonderful in the whole affair. Thus
+ostensibly, at any rate, the theory of the miracle carried it hollow.
+
+``The bishop, however, between whom and the mule similar differences of
+opinion, attended with precisely the same results, had frequently
+occurred before, could not in his heart subscribe to the proof that
+appeared to have convinced the rest; so he thus addressed his
+attendants.
+
+``\,`Brethren, however singular may have appeared what we have heard and
+seen this day, we ought not lightly to adopt an opinion that anything
+has occurred out of the common order of nature, lest other causes,
+simple and obvious to the unlearned, should by chance be brought to
+light, sufficient to account for what has happened, and thus the
+authority of the Church be brought into jeopardy. I will therefore order
+two men to be placed to watch the spot to-night, and to-morrow we will
+discuss this matter again, after they should have made their report.'
+
+``One of his attendants was in consequence sent back to direct two of
+the workmen to remain on the spot all night, and to give them his
+blessing, which was accordingly done.
+
+``A messenger from the bishop was sent to them again in the morning, to
+see whether all had remained quiet during the night. The account that he
+brought beck was, that he found the two men lying upon the ground in a
+helpless state, like men weary in body and oppressed with strong drink.
+He roused them with some trouble, and they then gave a very strange and
+marvellous account of what they had seen and heard during the night.
+
+``The most extraordinary fact, however, that the messenger had to report
+was, that the stones had all contrived to get up to the top of this hill
+again; the foundation-stone had been taken away, and the trench filled
+up, and the turf laid smooth again.
+
+``Upon ascending the hill, they found the building-stones bestowed in
+the same form they were the morning before; the lines of the foundation
+were in the same manner pegged out by the architect's marks; a small
+portion of the foundation had been dug, and the first stone had been
+laid, --- the identical first stone that had been laid by the bishop in
+another place the evening before.
+
+``The bishop, upon hearing this, ordered the two watchers and all the
+other persons who had been employed the day previous to be brought
+before him. The account that the two watchers gave was, that about
+midnight they were startled by a low rumbling noise, which appeared to
+issue from the heaps of stones. Presently the stones were observed to
+move, rolling about one against another, just as if there was a large
+body moving about and kicking in the midst of the heap; then a little
+stone rolled off the top of the heap, and tumbled on the ground; but it
+quite made their hair stand on end to see that, instead of stopping
+there, it kept on rolling and rolling, ---where the ground was rough it
+hopped and skipped, and then went on rolling again in the direction of
+the hill. Then out came another stone, and rolled, and skipped, and
+rolled like the first. In a little time, when the stones had contrived
+to shake themselves out of the heap, where they seemed to be very much
+in one another's way, they all began rolling away together, --- the
+little ones going faster and more nimbly than the others. The watchers
+said that they had some difficulty in getting out of the way, there were
+so many of them on the move together. A large stone, indeed, did come
+foul of one of them, hit him on the shin, and knocked him out of the
+way, nearly breaking his leg, and then went bowling on, as if it did not
+care whether his leg was broken or not.
+
+``When the stones had all gone by, they determined, though they were
+very much frightened at the time, to follow them, and see what they
+would do. They overtook them at a steep pitch of the hill, which
+appeared to offer considerable hindrance to their ascent The little
+ones, indeed, were seen scrambling up without any very great difficulty;
+but the large heavy ones could hardly get on at all. Some of them rolled
+half way over, and then rolled back again, but, after one or two
+efforts, they generally got a roll in advance; and when they passed the
+steep pitch, they bowled away again merrily.
+
+``The watchers waited until they had all passed the difficulty except
+one large stone, with a very awkward angle sticking out of its side,
+which seemed effectually to prevent its turning over at all. It
+contrived to turn half way over, and then rolled back again, and this it
+had repeated so often, that it had actually worked itself into a hole,
+and all its efforts to extricate itself seemed hopeless.
+
+``The watchers consulted with one another whether it would not be an act
+of charity to lend the poor stone a hand, and then they knelt down and
+put their shoulders against its under side and gave a heave. The great
+awkward stone rolled over, and then kept scrambling on as if it had been
+just as well made as the rest of its companions.
+
+``They followed the stones to the top of the hill to watch their
+proceedings there. The stones in several places were seen huddling
+themselves close together, and there were some others rolled up to them,
+and gave one hop, and jumped on to the top of them, till at length there
+were seen piled up in just such heaps as they lay in before down below.
+Then the pegs --- the architect's pegs were hopping about upon the
+ground like sparrows; but their wooden heads did not seem to be half so
+sharp-witted as the stones, for they seemed sorely puzzled where to
+place themselves, notwithstanding the apparent exertions of a tall wand,
+with a bit of coloured rag at the top of it, which kept constantly
+moving backward and forward, now sticking himself in at one corner, and
+then at another, probably much in the same way that it had previously
+done under the architect's directions. But long before they had made
+their arrangements to anything like their own satisfaction, up hopped a
+spade, which banged across the ground they were marking, knocking down
+two or three pegs in his way without any ceremony, and began sedulously
+digging and throwing out the earth. It was marvellous to see how it
+crammed itself into the ground, and then threw out the earth, without
+any hand or foot to guide it.
+
+``When it had dug a hole sufficiently large, up rolled a large flat
+stone, and squatted itself down in it. The stone was afterwards found to
+be the same identical stone that had been laid by the bishop with so
+much ceremony down below.
+
+``This was the account given by the two men who had been set to watch.
+
+``One of the other men employed now stepped forward, and said, that with
+regard to the bad hurt that one of the watchers had got upon his shin,
+he was quite certain that his companion had not received that hurt up to
+late in the evening before. They always worked with bare legs, and he
+must therefore have seen it.
+
+``Here the bishop and his council put their heads together, and
+consulted a little in an under tone. It was evident that the man had
+received his hurt some time during the night, and not during his work
+hours; and it was quite incredible that he could purposely have
+inflicted such an injury upon himself. This was a strong piece of
+circumstantial evidence, and went far to prove the truth of the story.
+Then the account given by these two men agreed so exactly in every
+particular, --- they were so accurate in the description of every minute
+circumstance, --- all the different parts of the story fitted so well
+together, that they considered it unnecessary to hear any farther
+evidence upon the subject The bishop then dismissed the assembly.
+
+``Two days after this the bishop, attended by the principal
+ecclesiastics and the chief inhabitants of the Isle of Wight, went in
+solemn procession to consecrate the new site of the church. The ceremony
+was very similar to the preceding one, except that the bishop recited at
+great length, and with some trifling alterations and additions, the
+wonderful miracle that had taken place upon the spot. After he had
+concluded his address, they raised the foundation-stone to see whether
+the piece of money was still lying under it.
+
+``Great was the astonishment of all the assembly to find that it was
+gone, and exactly in the spot where it should have been was found the
+paring of a thumb-nail As soon as this was publicly announced, a loud
+and universal shout arose --- `A relic! a holy relic!' I pass over
+altogether, for it would be grating to the ear of every religious
+Protestant, the consultations that were held upon the subject, the
+processions that followed, the masses that were said, the adorations
+that were paid to this trumpery and filthy object. It is sufficient to
+know that the site was consecrated, the church was built, and the ground
+upon which it was erected has ever since been known by the name of
+God's-hill.
+
+``The franklin was highly pleased to have had all his sins absolved by
+the bishop himself, without the necessity of any confession; while his
+cows still ranged over his favourite field; and the two watchers never
+passed that way without partaking of the best cheer that the franklin
+could set before them.''
+
+\bookmarksetup{startatroot}
+
+\chapter{Godshill Tall Tale}\label{godshill-tall-tale}
+
+\emph{If you're ever minded to descend into the archives in search of
+Isle of Wight folklore, you'll almost certainly meet Abraham Elder's
+``Tales and Legends of the Isle of Wight'' along the way. This early
+19th century roadtrip featuring the author and his antiquarian sidekick,
+Mr Winterblossom, sees the two travellers driving around the island, in
+a horse and trap presumably --- this was in the days before steam
+railways, let alone motor cars --- in search of local stories. But many
+of the tales are relocated tales from elsewhere, and some have the
+feeling that they are just plain made up. And even the author's name,
+Abraham Elder, is a pseudonym: the best guess is the author was Augustus
+Moreton, MP for Gloucestershire, who stayed regularly with his uncle, in
+Bembridge. Anyway, this tale is one of Elder's, taken from Bentley's
+Miscellany in 1839 or so, a literary journal edited around that time by
+a certain Mr Charles Dickens. It's a version of a legend that you may be
+familiar with: how Godshill Church came to be situated just where it can
+still be found today.}
+
+The tale begins with the raising of funds to build a new Church, and a
+search for where to situate it. The perfect spot is found, a flat plain,
+near a hill, between Whitwell and Arreton, between Rookley and Wroxall,
+and the Bishop approves. It was a very fine site indeed.
+
+The man who farms the land, a poor franklin, or freeholder, is informed
+by a monk from the Abbey of the great honour to be bestowed upon him.
+But rather than praising the Lord, the man protests: ``I'm not a pious
+man, sir'' he says, ``it would not do to put the Church there, and what
+would I do, it's my best bit of land'', and on and on he goes. And it's
+true. He's not a pious man at all. Indeed, he'd rather go out of his way
+to avoid a confession, rather than to make one, and on the occasions
+when a certain passing friar would take his confession, well, it tended
+to be after supper, and after a pint or two. And if penance were called
+for, well then, the ale might turn a little sour, or be offered no more.
+
+``My neighbours, sir, my neighbours. They are both men of God, sir, both
+men of God, good men, not a sinner like me. And their land is surely
+holier than mine, sir. And closer to god, closer to God'' , and he
+pointed up the hill to his neighbour's land.
+
+But the monk \emph{wouldn't} be persuaded, indeed, he \emph{couldn't} be
+persuaded, because the choice had been made: ``your unholy nature is no
+matter'', he said, ``when the foundation stone is laid, you will be
+absolved of your sins''. And even as the man protested that his
+neighbours were more pious than he, more deserving, the monk walked away
+without even a promise of compensation.
+
+The stones to begin the construction duly arrived from a local quarry,
+the site was marked out with pegs and ropes to the satisfaction of the
+architect, and the day to consecrate the land and lay the foundation
+stone duly arrived. The architect and the mason arrived good and early,
+and\ldots{} where were the stones? Where were the pegs, and the ropes?
+They looked around. Surely they couldn't be in the wrong field? They
+called out to Master Franklin, who's head could be seen bobbing up and
+down behind a nearby hedge: ``what tricks have you been playing, sir?''.
+But he stood there, as bold as you liked, gesturing to himself, and
+shrugging, as if to ask: what, me? What do you mean?
+
+Just as the men really were starting to doubt that they had right field,
+the owner of the land at the top of the hill turned up, and he was in
+angry mood, a gravely offended mood. ``What in the Devil's name are you
+doing?'' he said. ``I've heard tell that the Church will take a man's
+land for no compensation to put a Church on it, but to start the work
+without even telling the man, that's not right. That's not right at
+all'', and on and on he went.
+
+Now, the architect had no idea what the Franklin's neighbour was talking
+about. ``What am I talking about? What am I talking about? That's what
+I'm talking about\ldots{}'', and he pointed up the hill; and then he
+started to drag them up the slope, ``come on, come on''\ldots{} Well,
+they hadn't gone far when they saw the stone, and the pegs, and the
+ropes, laid out exactly as they had been before; only this time, on top
+of the hill.
+
+Well, they immediately set to, and with the other masons and builders
+who had by now started to arrive and follow the commotion, they took
+everything back down the hill, and put it back how it was. Just in time
+for the Bishop and his retinue to arrive, the Bishop, seated, royally,
+looking as princely as he could, given that he was sitting on a donkey.
+
+But rather than stopping at the appointed place, the donkey resolutely
+walked straight past the building site, indeed, it quickened its pace,
+if anything, and started to make its way up the hill. The assembled
+monks, who had been chanting psalms and looking heavenwards to prepare
+that place for the solemn ritual about to take place, broke off and
+chased after the Bishop and his wayward donkey. Eventually they caught
+up with him, half way up the hill, and led them both back.
+
+The Bishop was by now not in the best of moods, but he was there to do
+God's work, and do it he would, and so he got off the donkey, and laid
+the foundation stone, placing under it a coin and some masonic tools.
+And then he absolved all the sins of the franklin in exchange for the
+land and set off back for the Abbey.
+
+As the party headed away, the conversation was dominated by the strange
+story of how the stones had somehow moved to the top of hill the
+previous night. If they'd been placed on top of the hill and rolled
+down, well, that would have been weird, but it sort of makes sense.
+Things are always rolling down hills, but not usually uphill.
+
+Or perhaps it was a miracle. Now, a certain sort of a churchman really
+likes the idea of a miracle, and the pilgrim benefits that accrue, but
+the majority thought it unlikely to be a miracle. There was surely
+another explanation?
+
+Well, then, a joke, perhaps, a prank? But who would do such a thing? Not
+the pious men of the island, not men who might face excommunication and
+eternal damnation for thwarting the will of God and the placing of his
+Church.
+
+So talk turned again to the possibility of the miracle, and one of the
+party feverishly pointed out how the donkey had also made its way past
+the original site, and up the hill, and how that too was surely a sign,
+was surely more evidence that a miracle had occurred?
+
+Now, the Bishop himself wasn't convinced by this. Not least because the
+Bishop and the donkey had previous form. And so the Bishop suggested
+that one of the monks go back and tell two of the workmen that they
+should keep watch over the stones that night, and then after they
+reported back in the morning, they could discuss the matter further. And
+so it was done.
+
+The next day, a messenger arrived at the Abbey with the strangest of
+news: he'd found the two watchmen lying helpless on the ground at the
+foot of the hill, with sore heads and bloodshot eyes, and they had told
+the most marvellous tale; and the stones, the stones that had been at
+the foot of the hill, including the foundation stone, had all
+miraculously been transported back up the hill again. And the site at
+the bottom of the hill was all repaired so as you wouldn't know that the
+foundation stone had been laid there the day before at all.
+
+Well, the two watchmen were summoned, and asked to explain themselves
+and they told of how at first the little stones, had start to jiggle,
+and almost jump, and then start to roll and bounce their way up the
+hill. And one of the stones had bumped and jumped and clattered straight
+into tone of the men's shins --- and at this point, he showed a fresh
+bruise on his leg. And then the pegs and the ropes rolled themselves up,
+and up the hill, and then the bigger stones, well, it was as if they
+needed a few attempts to lift themselves and start rolling but they did
+it. And one stone, well, it had an odd shape, with a jagged bit, and as
+it rolled it kept getting stuck. And it was so sad to see it struggling,
+that the men thought, should they show it some charity and help it out.
+And so they did, they gave it a hefty push to help get it out of a rut
+and then it seemed to gain momentum and it rolled away and it managed to
+make its way the rest of the way up the hill, all by itself. And as the
+Bishop interrogated the men, well: their stories barely had a hair's
+breadth of a difference between them.
+
+The Bishop looked on in wonder, and called for the whole party to return
+to the site so he could see this for himself. And so the donkey was
+saddled, and they set off once again. Getting to the top of the hill,
+the pegs marked out the Church as exactly as they'd been placed before,
+and even the foundation stone was where you'd expect. At least, if you
+expected to find it marking out a church built on top of the hill.
+
+The final proof would surely be if the coin and the mason's tools were
+to be found under the foundation stone. And so it was lifted, and there,
+there beneath the stone, was: a miracle. A relic. A holy relic. A
+thumbnail. And the monks began to chant and sing, and praise the holy
+lord and the masses that were said that day, and the processions they
+made, well, you'd think it was a relic of the Holy Lord Jesus himself.
+And perhaps it was.
+
+By now, it was obvious that God's work was afoot, and that the top of
+the hill was surely the right place for the Church. And so another
+consecration ceremony was held, but this time on the top of the hill.
+And there the Church was built; and there it still stands today.
+
+And at the bottom of the hill, what of the franklin who lived there?
+Well, his mortal sins had been absolved the first time around, and he
+continued to work that land till the day he died. And if either of the
+two watchmen from that earlier night were to ever pass by his way, well,
+he'd invite them in and they'd share an ale or two and they'd retell the
+tale of what happened on that miraculous night, just as I've told you,
+and as you can tell others.
+
+And that is the end of the story.
+
+\bookmarksetup{startatroot}
+
+\chapter{\texorpdfstring{In Percy Stone's \emph{Legends and Lays of the
+Wight}}{In Percy Stone's Legends and Lays of the Wight}}\label{in-percy-stones-legends-and-lays-of-the-wight}
+
+In \emph{Legends and Lays of the Wight} first published in 1912, local
+architect, author and archaeologist, Percy G. (Goddard) Stone quotes the
+summary of the legend of Godshill from \emph{Barber's Picturesque
+Illustrations of the Isle of Wight}, before retelling the tale more
+colourfully in verse:
+
+\begin{quote}
+They had gathered them in from the countryside round\\
+To settle a serious matter.\\
+The question was this:\\
+They sore needed a church\\
+But they seemed very like to be left in the lurch,\\
+And the whole thing to finish in chatter.
+
+Shall we build it up there on the top of the down,\\
+Or here in the valley below?\\
+As at all parish meetings, a number said Aye\\
+The hill is the spot for it's open and high,\\
+While the rest called them fools, and said No.~
+\end{quote}
+
+\begin{quote}
+And while they thus argued for valley or hill\\
+In the weary parochial way.\\
+The Devil drew near, in the guise of a Friar\\
+--- The Devil is always a plausible liar,\\
+And put in his word for the Nay.
+
+`Why burden yourself with the onerous task\\
+Of building up there on the height?\\
+The carriage of stone will entail a sad toil,\\
+So listen to me, honest sons of the soil.\\
+Below's the most practical site.'
+
+`The holy monk's right,' shouted those who agreed\\
+To the vale scheme. Beelzebub lied.\\
+As he always can do, with such hearty good will\\
+That most of the folk who'd declared for the hill\\
+Turned about and came over his side.
+
+Satan reckoned, if tucked away snug out of sight,\\
+'Twould be more out of mind of the Saints.\\
+Besides, with the muddy and waltorish ways,\\
+They would sure be more likely to curse than to praise,\\
+Thus their prayers would get choked with complaints.
+
+St.~Boniface, passing, soon saw what was on,\\
+So put in his vote for the hill.\\
+Don't listen to fossils like him~---\\
+Slaves to orthodox precedent, crotchet and whim,\\
+Quoth Satan, `Tis clear, friends, his knowledge is nil.'
+
+So to it they went with a hearty good will.\\
+Said the Saint, `It is just as I feared:\\
+Though the fools wouldn't listen to what I'd to say,\\
+Beelzebub shan't have it all his own way'\\
+And he thoughtfully pulled at his beard.
+\end{quote}
+
+\begin{quote}
+So the masons hewed stones and then set them in place,\\
+Chipping hard till the daylight had sped.\\
+Then gathering their tools, with a sigh of content\\
+At the work they had done, gaily homewards they went\\
+To supper, and after to bed.
+\end{quote}
+
+\begin{quote}
+Next morning betimes they arose with the lark\\
+And set forth to work with a will.\\
+But lo! when they got there, 'twas level with ground.\\
+--- Not a sign of a stone to be anywhere found\\
+They were all laid atop of the hill.
+
+`Here, bother it all!' the head mason exclaimed\\
+`Who's been playing the fool with this job?'\\
+`If I catch him, mark well' --- and he doubled his fist,\\
+With a look that I wouldn't for money have missed,\\
+``I'll trounce him right soundly begob!''
+
+His comrades, sore puzzled, looked up and looked down,\\
+Then exclaimed with unanimous voice\\
+--- They knew nothing about it so strike 'em all dead\\
+As after their suppers they went straight to bed,\\
+And had naturally stayed there, for choice.
+
+So it's up to the top of the hill they must toil\\
+And fetch all those stones down again.\\
+While they swore at the fool who had played them the trick\\
+--- Of course the first person they thought of was Nick,\\
+And given them toiling in vain.
+
+Once again in their places the pieces secured,\\
+They mortared them surely and true.\\
+But when morning dawn lightened, the stones as before\\
+--- Whereat the whole company lustily swore\\
+Were ranged on the hill-top anew.
+
+Said the stout master mason, a-scratching his head,\\
+`This is getting too much of a jest;\\
+Let alone double toil, it will never get done:\\
+'Tis the job of a lifetime for every one:\\
+From our labour we never shall rest.'
+
+When the very next morning the same thing occurred.\\
+`Stop, mates: let it be. The whole thing's\\
+A puzzle too tough for my nob;\\
+The Building Committee must settle this job:\\
+It's a bit too perplexing for me.'
+
+So they called them together and met once again\\
+And argued it worse than before.\\
+They argued it up and they argued it down,\\
+Like the council elect of a small county town,\\
+Till they argued their very throats sore.
+
+Then Boniface Saint he laughed low in his beard:\\
+``'Tis Isle of Wight calves that you be.\\
+Are your heads then so thick that you can't understand\\
+When from Heaven you're graciously sent a command,\\
+It 's a miracle, easy to see.''
+
+`You scorned the advice of a credited saint'\\
+--- Here his stature a full cubit rose,\\
+`Who was never convicted of being a liar,\\
+And hung on the words of this sham shaven friar,\\
+Who led all you fools by the nose.'
+
+``A friar forsooth! 'Neath his cowl and his frock\\
+Horns and hooves I can clearly perceive.\\
+--- This has been one of your narrowest shaves ±\\
+Come hither, Beelzebub, subtlest of knaves,\\
+And your recompense duly receive.''
+
+Saint Boniface here gripped him tight by the neck,\\
+``With, None of your sly monkey tricks''\\
+Then, catching him fair with the point of his toe,\\
+He lifted the Devil a furlong or so\\
+With a couple of right lusty kicks.
+\end{quote}
+
+\begin{quote}
+Whereat the parishioners fell on their knees\\
+And lauded the Saint to the sky.\\
+So Boniface blessed them in orthodox way.\\
+Then, looking around him, proceeded to say,\\
+'This humility's mostly my eye.
+
+'Next time don't be led by a plausible rogue\\
+Unknown to the Parish and you\\
+Though I've heard it, my friends, reprehensibly said\\
+By Christians, alas! who are easily led,\\
+We must render the Devil his due.
+
+`Avoid mendicant friars, and take this advice\\
+I tender you ere I depart:\\
+Don't argue it more. Work away with a will\\
+At building your church on the top of the hill,\\
+Every man of you bearing his part.'
+
+`We assure you, good Saint, we will do as you say.\\
+But, ere that you bid us \emph{adieu},\\
+Grant this favour benign, that our newly-built church\\
+--- By Beelzebub's guile nearly left in the lurch,\\
+May be titled in honour of you.'
+
+``Though I'm flattered, the honour I needs must decline\\
+--- Besides I'm bespoken elsewhere\\
+When everything's finished, to carving and paint,\\
+Let your church be invoked in the name of each saint\\
+By whom you're accustomed to swear.''
+\end{quote}
+
+\begin{quote}
+All humbly they cried, `It shall be as you wish.\\
+Your Saintship; we'll work with a will\\
+And the site where the building in future will stand,\\
+According to God's and your saintly command,\\
+Shall be known by the name of GODSHILL.'
+\end{quote}
+
+\begin{quote}
+The church there to-day on the top of the mound\\
+Lifts its pinnacled Tower to sky\\
+While a mile to the South Devil's Acre is found\\
+--- Which maids in the dark are afraid to pass round,\\
+Two proofs to you Legends don't lie.
+\end{quote}
+
+\emph{\texttt{Isle\ of\ Wight\ calves}: a local expression for a
+dull-witted man.}
+
+\bookmarksetup{startatroot}
+
+\chapter{Nineteenth Century Tourist Guide
+Descriptions}\label{nineteenth-century-tourist-guide-descriptions}
+
+Since the late seventeenth century, tourist guides and itineraries have
+featured the Isle of Wight as a well-regarded destination. Many of these
+guides provided descriptions of the island towns and villages as they
+were at the time, as well as commenting on notable attractions and
+scenery, and, on occasion, local legends.
+
+Black's \emph{Picturesque Guide to The Isle of Wight} from 1876 paints
+the following picture of Godshill:
+
+\begin{quote}
+This, the ``most romancy'' (as old Aubrey would say) of the
+island-villages, abounds in bloom and leafiness, out of whose balmy
+depths rises the rugged church-crested hill, its abrupt sides studded
+with irregular cottages, and broken into flowery rifts and chasms. The
+Church, dedicated to All Saints, is worth a visit, as well on account of
+its architectural merits and interesting memorials, as of its admirable
+and striking position. A panorama, only to be described by a poet,
+greets the spectator's eye from this insulated point. ``To the north the
+gaze embraces the whole of the vale of Newchurch, with the undulating
+ridge of the chalk downs beyond, ending towards the valley of the Medina
+in the abrupt slope of St.~George's Down. The white cliff of Culver are
+just descried over some rising ground to the right; to the left we have
+the ridge separating the valleys of the Yar and Medina, and the bold
+line of chalk downs which here take a due southerly direction. To the
+south the view is more varied. The northern front of the southern chalk
+range, with its bold projecting spurs, and sinuous valleys lies before
+us. Appuldurcombe, or Week Down, with its shattered obelisk, bold wall
+of cliff (the northern face of the firestone stratum, which gives its
+picturesque character to the Undercliff), and rich hanging woods, rising
+immediately in front over the scattered houses and leafy knolls of the
+village; to the west is the huge mass of St Catherine's, marked by the
+twin pharoses, and the slender Alexandrian pillar; to the east rises the
+more picturesque outline of Shanklin Down, with its belt of timber half
+concealing its cliffs, on the summit of which stands the modern ruin of
+Cook's Castle'' --- \emph{(Venables).}
+\end{quote}
+
+A brief history of the church is also provided, including a reference to
+a famous lightning strike and a mention of the legend regarding the
+building of the Church:
+
+\begin{quote}
+Godshill was one of the six churches with which William Fitz-Osbert,
+after the Norman Conquest, endowed his favourite abbey of Lire, in
+Normandy. Charles I presented it to Queen's College, Oxford. It was much
+injured by lightning in January 1778. A tradition (of no uncommon
+character) attempts to account for the peculiar name of the village. Its
+builders first proposed to erect it at the foot of the hill, but every
+morning found the preceding day's work undone, and their material
+carried to the summit. After a few days' perseverance they wisely
+resolved to struggle no longer against the invisible workmen, and built
+the church on the site indicated by the spirits, where it still stands
+--- to all the country side around a stately beacon of the Christian
+faith.
+\end{quote}
+
+Barber's \emph{Picturesque Illustrations of the Isle of Wight},
+published in 1850, describes Godshill a little more succinctly as
+\emph{``a picturesque village, much remarked for the bold position of
+its Church, which, standing on a very abrupt hill, surrounded by the
+cottages of the inhabitants, may be supposed to have given name to the
+place, from its erection on so commanding a site''}. The legend is then
+described as a \emph{{[}r{]}ustic tradition} that related how \emph{``a
+more lowly spot was first selected for the erection of the church; but
+that the materials employed for that purpose, day by day, being
+regularly removed by invisible agents to the summit of the hill during
+the night, the workmen at length wisely determined to save themselves
+further unnecessary trouble, and built the church where some
+supernatural authority so plainly intimated that it must be erected.}
+
+Cox's \emph{Isle of Wight: its churches and religious houses} published
+in 1911, gives the legend as follows:
+
+\begin{quote}
+An old legend, still current in the parish and district, tells how the
+inhabitants, when first Christian preaching had won them to the true
+faith, began to build a church on a level place a mile to the south-west
+of the present village, but as fast as they laboured during the day,
+when nightfall came the stones mysteriously disappeared, and were at
+last found on the top of the hill. Recognising that this must be the
+will of God, they decided that the church was to be completed on this
+lofty site, and from that time both the church and the village, which
+grew up around it, have been known by the name of Godshill.
+\end{quote}
+
+An even more religious telling is provided in ``The Isle of Wight'' by
+George Clinch, published in 1908, quoting an \emph{``ancient legend
+which is thus given in a local guide-book''}:
+
+\begin{quote}
+The people of this village, having long lived in pagan darkness, were at
+length visited by a holy man who came and lived among them. He told the
+wondrous story of Divine self-sacrifice, and taught the Catholic
+religion of love and mercy. This so touched the hearts of the people
+that they cast down their blood-stained altars and acknowledged the true
+God.
+
+Then cried the elders of the village: ``We will build a temple to His
+honour, where we and our children's children may worship, and by which
+generations yet unborn may know how the Saxon reverenced God.''
+
+They chose, therefore, a level place, and all day long they wrought and
+toiled, and when night came they rested from their labours. But on the
+morrow, when borne during the night by invisible hands to the top of a
+round knoll.
+
+When the people saw this marvellous sight they cried with one voice:
+``Let us build now on the top of the hill, for this must be the will of
+God,'' and from that time the church and village have been known as
+Godshill in memory of this great deed.
+\end{quote}
+
+Clinch goes on to describe how \emph{{[}t{]}his legend, which may have
+been invented in explanation of a rather remarkable name, belongs to a
+class of which numerous examples still linger in England''}:
+
+\begin{quote}
+Usually one finds them in places where the parish church stands at a
+considerable distance from the village, and, generally, they are to the
+effect that the building erected in or near the village during the
+day-time was conveyed by evil influences to a remote situation at night.
+The Godshill legend is a variant of this group.
+\end{quote}
+
+\emph{Original copies of the above works can be found in the Castle
+Museum library at Carisbrooke Castle. The collection is viewable by
+appointment.}
+
+\bookmarksetup{startatroot}
+
+\chapter{Abraham Elder's Tales and Legends of the Isle of
+Wight}\label{abraham-elders-tales-and-legends-of-the-isle-of-wight}
+
+One of the few purported 19th century collections of Isle of Wight
+folk-tales is Abraham Elder's \emph{Tales and Legends of the Isle of
+Wight}, first published in 1839. The tales are presented as if in a
+dialogue between the author, and his traveling companion around the
+island, a certain Mr Winterblossom.
+
+According to a correspondent in the Isle of Wight County Press, a
+newspaper that continues to be published to this day, of Saturday 16
+December 1893,
+\href{https://www.britishnewspaperarchive.co.uk/viewer/bl/0001960/18931216/025/0002}{p2},
+\emph{Abraham Elder produced in that year {[}1839{]} two issues of his
+``Tales and Legends.''}
+
+\begin{quote}
+The first issue was a small book of 196 pages with only four
+illustrations, drawn, I conjecture, by Abraham Elder himself. The
+illustration for page 4 has the curious blunder of the number 116 being
+substituted for 4. This smaller issue is called on the title page ``Part
+the first.'' This issue has a value of its own, as it contains as a
+frontispiece a view of the Needles, showing the original needle rock.
+This frontispiece may have been meant by Abraham Elder to be included
+amongst the legends of the Isle of Wight. In the same year came out the
+second issue of the ``Tales and Legends.'' This issue is a much larger
+volume, it contains 336 pages, with 14 large and 11 small woodcuts by
+Robert Cruikshank. The illustration of page 4 of the first issue is
+reproduced as a vignette on page 8 of this second issue, otherwise the
+25 illustrations are entirely different from the illustrations of the
+first issue. Of this second issue a second edition appeared in 1843, but
+in no way differing from first edition. \ldots{} R. G. D.
+\end{quote}
+
+Elder used the preface of the book to provide some background, or so we
+are led to believe, for the provenance of the stories in the collection.
+In so doing, he also reveals that he is not an Islander himself:
+
+\begin{quote}
+It may appear singular that the present little volume, intended to
+illustrate the antiquities and traditions of the people of the Isle of
+Wight, should come from the pen of a stranger; and that the tales it
+contains should have been collected during the space of a short summer
+ramble. Fortune, however, has favoured me much, and I take this
+opportunity of returning my thanks to my friend, the well-known and
+justly celebrated antiquary, Mr.~Winterblossom, for his most valuable
+contributions, without which this collection of Tales and Legends would
+have been but chaff.
+\end{quote}
+
+Rather unusually, Mr Winterblossom's credentials are proved by what he
+has \emph{not} achieved, specifically, publishing a collection of tales
+himself:
+
+\begin{quote}
+I must confess that I am rather a collector, compiler, or editor; though
+vanity (as some would term it) has induced me to call myself the author
+of the present work. I am but the wisp of straw that ties the fagot
+together. But it is not altogether vanity in me either: for I have
+repeatedly, though in vain, urged Mr.~Winterblossom to undertake the
+task. But he said that he had once spent many years and infinite labour
+in preparing a work of deep erudition for the press. The public was
+ungrateful, and the work still remains unsold. Printer's ink he would
+never meddle with again; and then, added he with emphasis, taking me by
+the arm, ``the printer will be paid, whether the work sells or not''.
+\end{quote}
+
+We also get a hint from the preface that if the current work meets with
+some success, Elder would happily produce a second volume:
+
+\begin{quote}
+Should, however, the public act with greater indulgence in the present
+instance, it is my intention, if life and health be preserved to me, to
+offer a second volume to its notice in the due course of time. One
+difficulty presents itself.
+\end{quote}
+
+To compile such a work, however, Elder suggests he would benefit from
+local assistance in sourcing or uncovering local tales. Notably, he
+gives a local bookseller as one of his contact addresses.
+
+\begin{quote}
+Being a stranger to the island, --- during the short time I may be able
+to bestow upon a visit next summer, I may perhaps overlook many things
+that ought to be recorded with care. I should therefore feel under
+obligation to any one who will call my attention to any antiquity, tale,
+or tradition connected with the island; --- directing their
+communication to A. Elder, Esq., author of '' Tales and Legends of the
+Isle of Wight,'' under cover to his publishers, Messrs. Simpkin,
+Marshall, and Co., or to Mr.~French, bookseller, Newport.
+\end{quote}
+
+Although a second \emph{volume} of tales did not appear, a second
+\emph{edition} of \emph{Tales and Legends} was published in 1843. This
+edition contained several additional tales that had also appeared
+throughout 1839 and 1840, in the literary magazine \emph{Bentley's
+Miscellany}. The first editor of \emph{Bentley's Miscellany}, which was
+first published in 1836, is perhaps better known today as an author in
+his own right: a certain Mr.~Charles Dickens, whose book \emph{Oliver
+Twist} was originally serialised in that magazine. Dickens, who was born
+in Portsmouth, is known to have visited the Island in September, 1838,
+and returned again for a longer stay in the summer of 1849. It is
+interesting to speculate whether he had met up with one of his
+contributing authors on that earlier visit. As the following letter from
+volume one of \emph{The Pilgrim Edition} of \emph{The Letters of Charles
+Dickens} shows, Dickens' mind was at least partly on the job even if he
+was on holiday, although he was, perhaps, looking forward to getting
+home?!
+
+\begin{quote}
+To Richard Bentley, {[}10{]} September {[}1838{]} \emph{Ventnor, Isle of
+Wight. \textbar{} Monday Evening, Septr. 9th} My Dear Sir, I have
+received a letter with some double or treble postage tacked to it from
+one ``Omega'' \emph{{[}an unidentifed contributor whose to the
+Miscellany had been declined in Notices to Correspondents in April,
+1838{]}} relative to some german translations. This Omega is an
+impertinent gentleman who has done me the favour to write a continuation
+of Pickwick and ask me to father it. In case you should hear from him
+again, I think it best to let you know that I have written him a reply,
+stating that I do not wish to accept his papers, firstly because the
+greater part of them are too long, and secondly because you do not
+require translations from new Contributors --- the strong probability
+being (this I have \emph{not} told him) that they have appeared
+somewhere else before.
+
+I shall be home, please God, on Wednesday Evening. Shall I see you this
+week?
+
+Faithfully Yours
+
+Charles Dickens
+\end{quote}
+
+The tale of the Godshill legend, included in this volume, was originally
+published in \emph{Bentley's Miscellany}.
+
+\section{Who Was Abraham Elder?}\label{who-was-abraham-elder}
+
+In 1873, scholarly story collector Joseph Jacobs' published \emph{More
+English Fairy Tales}, his second collection of English fairy tales. The
+volume included a version of Elder's legend relating to the Pied Piper
+of Newtown, a story that appears to have made its first appearance in
+\emph{Tales and Legends of the Isle of Wight} in 1839.
+
+Whether the legend was a ``true'' one is a story for another day, but
+the publication of tale brought some attention as to who the real author
+might actually be, Abraham Elder having been identified as a \emph{nom
+de plume}.
+
+In the August 30th, 1873, issue of \emph{Notes \& Queries},
+\href{https://archive.org/details/sim_notes-and-queries_1873-08-30_12_296/page/168/mode/2up}{Vol
+12 Iss 296}, a 19th century periodical, published weekly since November
+3rd, 1849, which acted as a \emph{``Medium of Intercommunication for
+Literary Men, Artists, Antiquaries, Heralds''}, the following query
+appeared:
+
+\begin{quote}
+``TALES AND LEGENDS OF THE ISLE OF WIGHT: with the Adventures of the
+Author in search of Them.'' By Abraham Elder, Esq. 2nd edition, 1843.---
+Who wrote this work? It is not mentioned in Mr.~Olphar Hamst's
+\emph{Handbook}. Mr.~Abraham Elder was evidently a person of culture and
+research, possessed of a delicate humour and much literary skill. His
+book is very interesting, and might well be reprinted. \ldots{} A. J.
+Munby.\\
+Temple.
+\end{quote}
+
+It seems the question went unanswered.
+
+The same question was asked by the Isle of Wight County Press
+correspondent \emph{R. G. D.} in 1893:
+
+\begin{quote}
+I have tried to find out the real name of Abraham Elder. I have learned
+that he either was native of, or lived in, Shanklin and that to his
+parents he owed the name of Clayton, but I have not yet been able to
+find out what name was given him by his godfather and godmother. I
+should be much obliged to any of yours readers who would give me this
+information.
+\end{quote}
+
+In reply was a letter that just missed making it into the next week's
+edition who is makes some uncertain suggestions as to the identity of
+the mysterious author:
+
+\begin{quote}
+ABRAHAM ELDER
+
+\emph{To the Editor of the Isle of Wight County Press.}
+
+Sir,--- Abraham Elder's ``Tales and Legends of the Isle of Wight''
+contains a great deal of matter which has but little relation to, and
+which is by no means the natural product of, the Island, but which
+originated only in the fertile imagination of A. E., whose \emph{real}
+name is shrouded in mystery, like the name of the builder of the
+pyramids. For years I have vainly endeavoured to discover it and still
+like Junius, \emph{stat nominis umbra}. I do not think he was a native
+of the Island, but probably a visitor, or some one who had been resident
+for some time. I have heard the names of Clayton, Moreton, and others
+mentioned in connection with the tales, but nothing of satisfactory
+nature giving any real clue to the writer's identity.
+\end{quote}
+
+The correspondent also reviews the publication history of Elder's work
+and passes comment on what they know of contributors to Bentley's
+magazine:
+
+\begin{quote}
+The second part of the ``Tales and Legends'' first appeared in the pages
+of \emph{Bentley's Miscellany} in 1839 and 1840. I knew one of the
+earliest contributors to \emph{Bentley}, and the last survivor of that
+brilliant circle of writers, a gentleman who was well acquainted with
+most of the contributors to the earlier volumes of the
+\emph{Miscellany}, and through him I made inquiries few years ago of
+Bentley and Son to the real designation of A. Elder, but could obtain no
+reply, after much research. His identity was forgotten and remained
+unknown to his publishers. The first part of the tales, as your
+correspondent ``R.G.D.'' observes, was published in 1839, with four
+plates in lithograph.
+\end{quote}
+
+The correspondent also seems to be of a different opinion to R.G.D. as
+to when the second issue of \emph{Tales and Legends} was first
+published:
+
+\begin{quote}
+Another issue was published in 1841, with plates by R. Cruickshank,
+engraved by the ``gypsographic'' process. In this volume the second part
+of the tales was first published as a book, and with the first part
+makes a volume in 12mo of 336 pages. A second edition appeared in 1843,
+and is simply reprint of the volume published in 1841. All the editions
+are now become scarce, the first especially.--- I am, yours truly,
+
+W. H. Long. 120, High-street, Portsmouth, December 22, 1893.
+\end{quote}
+
+However, a response that did make it in time to be included in the
+\href{https://www.britishnewspaperarchive.co.uk/viewer/bl/0001960/18931223/040/0003}{Saturday
+23 December 1893} edition of the \emph{Isle of Wight County Press}, p3,
+was more certain of Abraham Elder's identity:
+
+\begin{quote}
+ABRAHAM ELDER.
+
+To the Editor of the Isle of Wight County Press. Sir,
+
+In reply to the inquiry of your correspondent R.G.D., I can state that
+author of the ``Tales and Legends of the Isle of Wight'' was the late
+Hon.~Augustus Moreton, M.P. for Gloucestershire, who wrote the book
+under the name of Abraham Elder when living with his uncle, Col.
+Moreton, about that time at Bembridge. ---Yours truly. W.W. Osbourne,
+Bembridge, IW., Dec.~21. 1893
+\end{quote}
+
+It seems the Editor of the Isle of Wight County Press was happy to
+assertion, as we can tell from an Editor's comment added to Mr Long's
+delayed reply in the edition of a week later:
+
+\begin{quote}
+{[}Mr.~Long's letter reached us too late for insertion in our last
+issue, in which, it will be remembered, it was asserted on the authority
+of Mr.~W. W. Osborne that the author of the book in question was the
+Hon.~A. Moreton.---ED. \emph{I.W.C.P.}{]}
+\end{quote}
+
+Born in June, 1804, the Hon.~Augustus Henry Moreton Macdonald of Largie
+(born Augustus Moreton) was the younger brother of Henry
+Reynolds-Moreton, 2nd Earl of Ducie, and son of Thomas Reynolds-Moreton,
+1st Earl of Ducie, and Lady Frances, daughter of Henry Herbert, 1st Earl
+of Carnarvon. He was elected as a Member of Parliament for
+Gloucestershire West in 1832 and then for Gloucestershire East between
+1835 and 1841. A campaigner for homeopathy, he had published various
+works under his own name, including \emph{Civilisation, or, a Brief
+Analysis of the Natural Laws that Regulate the Numbers and Condition of
+Mankind} in 1836 and \emph{Thoughts on the Corn laws, addressed to the
+working classes of the county of Gloucester} in 1839.
+
+If we accept W.W. Osbourne's suggestion that Abraham Elder was, in fact,
+the Hon.~Augustus Moreton, M.P, a claim mildly supported by W. H. Long's
+suggestion of possible names, then what evidence can we find of the
+honourable gentlemen on the island?
+
+From a brief mention in
+\href{https://www.british-history.ac.uk/vch/hants/vol5/pp156-170}{\emph{A
+History of the County of Hampshire}: Volume 5, ed.~William Page (London,
+1912}, we can probably vouch that his uncle did indeed live on the
+Island:
+
+\begin{quote}
+Bembridge.
+
+In 1854 Colonel the Hon.~Augustus John Francis Moreton by his will,
+proved 5 September, left £300, the interest to be given to deserving
+poor. The legacy was invested in £327 5s. 8d. consols, producing £8 3s.
+8d. yearly.
+\end{quote}
+
+We also see from a news report in the \emph{Hampshire Telegraph} of
+\href{https://www.britishnewspaperarchive.co.uk/viewer/bl/0000069/18351019/006/0002}{Monday
+19 October 1835}, p2, that uncle and nephew were active in local good
+works:
+
+\begin{quote}
+Public Meeting of the Inhabitants of Bembridge, held at the Free School,
+on Monday the 12th of October, 1835.
+
+Honourable A. MORETON, M.P. Chairman
+
+Proposed by Mr.~John DENNET, and seconded by John Newman: 1. That this
+meeting deeply sensible of the important and valuable assistance
+rendered to the Education of the Children of the Poor by the Rev.~Sir
+Henry Thompson, Bart. in not only erecting the School House at his own
+expense, and paying the salaries of the School Master and Mistress, but
+also for his unwearied personal attention to the moral and religious
+instructions of the Inhabitants generally, do hereby tender him, their
+grateful thanks, and express their grateful and sincerest wishes for his
+future welfare and happiness.
+
+\ldots{}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  That a Committee be formed, consisting of: The Hon.~Colonel Moreton,
+  the Hon.~Augustus Moreton, \ldots{}
+\end{enumerate}
+
+\ldots{}
+\end{quote}
+
+We also have evidence of Moreton's social standing on the Island, as
+noted in this report from the \emph{Hampshire Advertiser} of
+\href{https://www.britishnewspaperarchive.co.uk/viewer/bl/0000494/18450607/034/0008}{Saturday
+07 June 1845}, p8:
+
+\begin{quote}
+Cowes, Saturday June 7
+
+Royal Yacht Squadron Intelligence\\
+Arrivals
+
+June 3 \emph{Elizabeth} Hon Augustus Moreton, from Guernsey
+
+Fashionable Arrivals. The following are among members of the R. Y. S.
+who have visited the Squadron House during the week: \ldots,
+Hon.~Augustus Moreton, \ldots{}
+\end{quote}
+
+\bookmarksetup{startatroot}
+
+\chapter{Afterword}\label{afterword}
+
+If you do make it up to the hill to Godshill Church, and browse the
+noticeboard there, you're as likely as not to see a poster for a flower
+festival, or a jumble sale, perhaps, as well as sundry other church
+notices.
+
+But for one visitor, John Hassell, writing in the second volume of his
+two volume work, \emph{Tour of the Isle of Wight}, published in 1790,
+and which you can find nowadays in the Castle Museum library (\emph{by
+appointment}) at Carisbrooke Castle, or via the
+\href{https://archive.org/details/bim_eighteenth-century_tour-of-the-isle-of-wigh_hassell-j_1790_2/page/n121/mode/2up?}{Internet
+Archive}, there was something rather more unusual posted there. After
+noting damage to two of the gable ends resulting from the 1178 lightning
+strike, Hassell recounts his experience of entering the Church (p.88):
+\emph{{[}u{]}pon our entering the porch we observed abstracts from
+several acts of parliament fixed against the door, and among them one
+that excited both our curiosity and risibility;}
+
+\begin{quote}
+--- it was from an act made in the seventh of James the First, which
+enacts, that every female who unfortunately intrudes on the parish a
+second illegitimate child, shall be liable to imprisonment and hard
+labour in Bridewell for six months.
+
+Now as the number of females on this island much exceeds that of the
+males; and as, from the mild temperature of the climate, circumstances
+frequently arise among the lower ranks that render the intention of this
+act of no effect; we could not help thinking this public exhibition of
+the abstract as rather a rigorous exertion of Justice.
+
+We found it was not very unusual here for the young men, from the
+deficiency of numbers just spoken of, to pay their devoirs to more than
+one young woman at a time; and as it is not possible for him legally to
+unite himself to all of them, he generally bestows his hand on her who
+had first presented him with a pledge of their love.
+
+This, however, is seldom done till the approach of a second pledge from
+the same person renders such an act of compassion needful, in order to
+avoid the consequences of the tremendous anathema fixed on the church
+door.
+\end{quote}
+
+You have been warned!
+
+
+\backmatter
+
+
+\end{document}

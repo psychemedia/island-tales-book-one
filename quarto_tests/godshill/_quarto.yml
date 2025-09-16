@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: _quarto_book
+
+book:
+  title: "A Legend of Godshill"
+  author: "Tony 'Monty' Hirst"
+  date: ""
+  chapters:
+    - index.qmd
+    - 01-godshill-elder.qmd
+    - 02-godshill-elder-reversioned.qmd
+    - 03-godshill-stone-lay.qmd
+    - 04-godshill-barber.qmd
+    - 05-identity_of_abraham_elder.qmd
+    - 06-godshill-afterword.qmd
+    
+format:
+  pdf:
+    documentclass: book
+    papersize: a5
+    fontsize: 12pt
+    mainfont: "Times New Roman"
+    classoption: [twoside]
+    geometry:
+      - inner=0.9in
+      - outer=0.5in
+      - top=1in
+      - bottom=1in
+    keep-tex: true
+    pdf-engine: xelatex
+    toc-title: "Contents"
+    toc-depth: 1
+    # Include the shared LaTeX styling
+    include-in-header: 
+      - ../shared-book-style.tex
+
+  epub:
+    toc: true
+    epub-cover-image: ../cover_images/puckaster-new-cover-kdp-ebook.jpg
