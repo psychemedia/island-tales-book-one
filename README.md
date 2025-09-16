@@ -42,6 +42,13 @@ I need an epub route. Maybe start moving everything to quarto???
 
 Need to hack the toc used for pdf?
 
+`pandoc -s godshill.tex -o test-godshill.docx` but this seems to drop all the italicised text?
+
+
+
+
+? or `jupyter-book build --builder singlehtml .`  then  `pandoc -o test2-godshill.docx _blank.html` but needs some tidying, remove pagebreak, clutter, but captures the italics ok
+
 ![](toc_hack_for_epub.png)
  - Export to docx then use amazon kindle pub tool
 
