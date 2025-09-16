@@ -1,6 +1,6 @@
 # Legends of the Isle of Wight: Godshill
 
-__*As originally told by Abraham Elder, in [ *Bentley's Miscellany*, volume 6, 1839](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/255/mode/1up?q=godshill). The tale can also be found in the second edition of Elder's "Tales and Legends of the Isle of Wight", publiched in 1843, copies of which are available for inspection by appointment in the Castle Museum library at Carisbrooke Castle.*__
+__*As originally told by Abraham Elder, in [ *Bentley's Miscellany*, volume 6, 1839](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/255/mode/1up?q=godshill). The tale can also be found in the second edition of Elder's "Tales and Legends of the Isle of Wight", published in 1843, copies of which are available for inspection by appointment in the Castle Museum library at Carisbrooke Castle.*__
 
 Having received a letter from Captain Nosered, of Violet Cottage, Ventnor, containing an invitation for Mr. Winterblossom and myself to spend the day with him, stating at the same time that he had a tale for me connected with that neighbourhood, very curious, and well-authenticated, which he wished to show me; as the captain was an old friend of mine, we accepted the invitation, and set out in a car together the next day.
 
