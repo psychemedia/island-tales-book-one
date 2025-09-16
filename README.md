@@ -6,7 +6,7 @@ This repo is WIP - I need to have a proper (private) build dir for books etc.
 For now:
 
 - book builds in `./quarto_tests`
-- cover builds in `./ama
+- cover builds in `./cover_tests`
 
 
 
