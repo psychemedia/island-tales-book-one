@@ -1,0 +1,66 @@
+% ====================
+% REMOVE DEBUG
+% ====================
+\newcommand{\drawmiddlelineoff}{}
+
+% ====================
+% CUSTOM OVERRIDES
+% ====================
+
+% +++++ OLD SPINE STYLE +++++
+% Omit or set \newcommand{\useOldSpine}{} for text spine
+% Set \newcommand{\useOldSpine}{anything} for old spine
+%\newcommand{\useOldSpine}{}
+% With old spine, set \newcommand{\centralbarwidth}{8.6cm}
+% else use \newcommand{\centralbarwidth}{7cm}
+\newcommand{\centralbarwidth}{7cm}
+
+% +++++ ISBN +++++
+% Omit the ISBN barcode using \newcommand{\bookISBN}{}
+% or pass an EAN13 barcode.
+% Otherwise a dummy ISBN is displayed
+%\newcommand{\bookISBN}{}
+\newcommand{\bookISBN}{9798263258078}
+
+%\newcommand{\bookISBNsize}{SC0}
+
+\newcommand{\bookcoverbackground}{185268} %
+\newcommand{\bookcoverbar}{000000} %264F28
+
+\newcommand{\coverbasefont}{Avenir Next}
+\newcommand{\backbasefont}{Georgia}
+\newcommand{\spinebasefont}{Superclarendon}
+
+\newcommand{\lefttextfont}{%
+    \fontsize{11}{12}\selectfont\fontspec{\backbasefont}%
+}
+
+\newcommand{\righttextfont}{%
+  \fontsize{42}{44}\selectfont\bfseries\fontspec{\coverbasefont}%
+}
+
+\newcommand{\leftsidetop}{-4cm}
+\newcommand{\rightsidetop}{4cm}
+
+\newcommand{\leftsidetext}{%
+How did Godshill Church come to be built on top of a hill?
+\newline\newline
+There are many versions of the legend, but Abraham Elder's version, first published in Bentley's Miscellany in 1839, is perhaps the only one that takes the form of a tall tale.
+\newline\newline
+This volume includes Elder's original version, along with a recent retelling of it, descriptions of the legend from "Barber's Picturesque Illustrations of the Isle of Wight", published in 1850, and George Clinch's "The Isle of Wight" of 1908, and a poetical version from Percy G. Stone's *Legends and Lays of the Wight*, first published in 1912. A brief background note regarding the possible identity of Abraham Elder is also provided.
+
+}
+
+\newcommand{\myspace}{ \linebreak\vspace{0.6em}}
+\newcommand{\rightsidetext}{\myspace A \nobreakspace \nobreakspace Legend \myspace of \myspace Godshill
+}
+
+%\newcommand{\leftspinetext}{monty.storyteller.org}
+\newcommand{\rightspinetext}{ISLAND TALES}
+
+%\newcommand{\footertext}{}
+
+% ====================
+% IMPORT TEMPLATE
+% ====================
+\input{./templates/base-island-tales-kdp.tex}

@@ -7,6 +7,18 @@
 % CUSTOM OVERRIDES
 % ====================
 
+% +++++ OLD SPINE STYLE +++++
+% Omit or set \newcommand{\useOldSpine}{} for text spine
+% Set \newcommand{\useOldSpine}{anything} for old spine
+%\newcommand{\useOldSpine}{}
+% With old spine, set \newcommand{\centralbarwidth}{8.6cm}
+% else use \newcommand{\centralbarwidth}{7cm}
+\newcommand{\centralbarwidth}{7cm}
+
+% +++++ ISBN +++++
+% Omit the ISBN barcode using \newcommand{\bookISBN}{}
+% or pass an EAN13 barcode.
+% Otherwise a dummy ISBN is displayed
 %\newcommand{\bookISBN}{}
 \newcommand{\bookISBN}{9798263248659}
 
@@ -50,4 +62,4 @@ The original tale is republished here, along a with a more recent retelling of i
 % ====================
 % IMPORT TEMPLATE
 % ====================
-\input{base-island-tales-kdp.tex}
+\input{./templates/base-island-tales-kdp.tex}

@@ -26,8 +26,11 @@
 \providecommand{\bookcoverbackground}{999999}
 \definecolor{backgroundcolor}{HTML}{\bookcoverbackground}
 
-\providecommand{\bookcoverbar}{000000}
+
+% With old spine, set \providecommand{\centralbarwidth}{8.6cm}
 \providecommand{\centralbarwidth}{7cm}
+
+\providecommand{\bookcoverbar}{000000}
 \providecolor{centralbarcolor}{HTML}{\bookcoverbar}
 
 \providecommand{\leftsidewidth}{10cm}
@@ -72,6 +75,35 @@
   \fi
 }
 
+% Define an option to use the old spine image
+\providecommand{\useOldSpine}{}
+
+\newcommand{\OldSpine}[2]{%
+  \edef\tempcheck{#1}%
+  \ifx\tempcheck\empty
+    % Use text for spine
+
+    % Left spine text (rotated)
+    \node[anchor=center, text=leftspinecolor, rotate=-90] 
+        at ([xshift=-1.5cm]page center) {
+        \leftspinefont
+        \textit{\leftspinetext}
+    };
+    
+    % Right spine text (rotated)
+    \node[anchor=center, text=rightspinecolor, rotate=-90] 
+        at ([xshift=2.0cm]page center) {
+        \rightspinefont
+        \rightspinetext
+    };
+
+  \else
+    \node at (current page.center) {
+        \includegraphics{images/island_tales_resized_cropped_spine.png}
+    };
+
+  \fi
+}
 
 % ====================
 % DRAWING MACRO
@@ -112,6 +144,9 @@
         \leftsidetext
     };
     
+    \OldSpine{\useOldSpine}{
+    }
+
     % Right side text centered between central bar and right edge
     \node[anchor=center, text=righttextcolor, align=left, text width=\rightsidewidth] 
         at ($ (bar right) !0.5! (page east) + (1.0cm, \rightsidetop) $) {
@@ -119,20 +154,9 @@
         \baselineskip=2em 
         \rightsidetext
     };
-    
-    % Left spine text (rotated)
-    \node[anchor=center, text=leftspinecolor, rotate=-90] 
-        at ([xshift=-1.5cm]page center) {
-        \leftspinefont
-        \textit{\leftspinetext}
-    };
-    
-    % Right spine text (rotated)
-    \node[anchor=center, text=rightspinecolor, rotate=-90] 
-        at ([xshift=2.0cm]page center) {
-        \rightspinefont
-        \rightspinetext
-    };
+
+
+
     
     % ISBN barcode (safe numeric expansion)
     \IfNotEmpty{\bookISBN}{%
@@ -160,6 +184,7 @@
         \raggedright
         \textit{\footertext}
     };
+
     \end{tikzpicture}
     }
 
