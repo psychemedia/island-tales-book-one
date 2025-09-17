@@ -35,6 +35,9 @@ format:
     include-in-header: 
       - ../shared-book-style.tex
 
+  docx:
+    toc: false
+
   epub:
     toc: true
     epub-cover-image: ../cover_images/puckaster-new-cover-kdp-ebook.jpg

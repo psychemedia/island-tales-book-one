@@ -136,6 +136,8 @@
 % Code font size (Sphinx compatibility)
 %\renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
 %\renewcommand{\sphinxupquote}[1]{#1}
+\let\oldtexttt\texttt        % save original \texttt
+\renewcommand{\texttt}[1]{{\footnotesize\oldtexttt{#1}}}
 
 % Custom page styles with fancyhdr
 \usepackage{fancyhdr}
@@ -233,6 +235,8 @@
 \renewcommand{\chaptermark}[1]{%
   \markboth{#1}{}}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
 
 % Apply normal page style (equivalent to fancy in Quarto)
 \pagestyle{normal}
@@ -352,7 +356,7 @@ of Godshill itself.
 --Tony ``Monty'' Hirst\\
 Apse Heath, September 2022.
 
-\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please vist montystoryteller.org}
+\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please visit montystoryteller.org}
 
 \bookmarksetup{startatroot}
 
@@ -1431,7 +1435,7 @@ home?!
 To Richard Bentley, {[}10{]} September {[}1838{]} \emph{Ventnor, Isle of
 Wight. \textbar{} Monday Evening, Septr. 9th} My Dear Sir, I have
 received a letter with some double or treble postage tacked to it from
-one ``Omega'' \emph{{[}an unidentifed contributor whose to the
+one ``Omega'' \emph{{[}an unidentified contributor whose to the
 Miscellany had been declined in Notices to Correspondents in April,
 1838{]}} relative to some german translations. This Omega is an
 impertinent gentleman who has done me the favour to write a continuation
