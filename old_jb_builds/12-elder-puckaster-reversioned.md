@@ -51,7 +51,7 @@ There being no-one around, John just wondered, wondered to himself whether there
 
 And each morning, when the tide was right, and as the sun came up, John Kann would wander down to the beach, and put the stone to his eye, and then put a handful of sand in a tub he'd carry with him. And as he'd wash the sand, the gold would gather there, at the bottom of the tub. And to hide the gold, he'd collect shells, and shellfish, and place those in the tub too. And he'd effect to sell the pretty shells, the ornamental shells, by placing them in his window. And he'd sell the shellfish too.  And twice a year, he'd go up to London, supposedly to sell the best of the shells, but really to sell the gold, in secret, remembering what Puck had told him about not revealing the source of his wealth. And folk would wonder about how he seemed to be able to get such a good price from a few old shells from those silly folk in London, who obviously had more money than sense.
 
-And by and by, a particular lady of the parish, a one person newsfeed, which is to say, a well-meaning but selfless gossip, slowly weedled her way into John Kann's affections, driven in one part by his wealth, but in another by a deep seated curiosity about how he was really coming by it.
+By and by, a particular lady of the parish, a one person newsfeed, which is to say, a well-meaning but selfless gossip, slowly weedled her way into John Kann's affections, driven in part by his wealth, but also by a deep seated curiosity about how he really came by it.
 
 And after a while, she married him.
 

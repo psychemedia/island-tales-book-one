@@ -30,4 +30,6 @@ Clinch goes on to describe how *[t]his legend, which may have been invented in e
 
 > Usually one finds them in places where the parish church stands at a considerable distance from the village, and, generally, they are to the effect that the building erected in or near the village during the day-time was conveyed by evil influences to a remote situation at night. The Godshill legend is a variant of this group.
 
-*Original copies of the above works can be found in the Castle Museum library at Carisbrooke Castle. The collection is viewable by appointment.*
+```{=latex}
+\let\thefootnote\relax\footnotetext{\textit{Original copies of the above works can be found in the Castle Museum library at Carisbrooke Castle. The collection is viewable by appointment.}}
+```

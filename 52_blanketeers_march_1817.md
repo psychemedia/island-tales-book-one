@@ -308,8 +308,6 @@ THE PETITION OF THE UNDERSIGNED, INHABITANTS OF MANCHESTER, IN THE COUNTY OF LAN
 
 Following the start of the Blanketeers' march, several of the arrested marchers were remanded to the Castle of Chester, while others were sent to Manchester's New Bailey.
 
-$\pagebreak$
-
 ```{admonition} A very ludicrous appearance, March 1817
 :class: dropdown
 *Carlisle Patriot*, [Saturday 22 March 1817](https://www.britishnewspaperarchive.co.uk/viewer/bl/0000365/18170322/009/0003).

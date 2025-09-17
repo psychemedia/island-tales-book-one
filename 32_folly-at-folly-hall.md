@@ -6,8 +6,6 @@ But whilst the general uprising the Pentrich rebels believed they were participa
 
 And that place was Huddersfield, in the West Riding of Yorkshire.
 
-$\pagebreak$
-
 ## The week before...
 
 It's the first week of June, 1817. News reports describe bands of "Luddites" in the villages and valleys around Huddersfield, in search of guns.
@@ -75,8 +73,6 @@ It is quite possible that both the factors mentioned above, the proximity of the
 Foolish it may have been to have built there, but how much more foolish was it to have met there on the night of Sunday, June 8th, and early hours of Monday, June 9th, 1817?
 
 The following description identifies *two* tales that claim to describe the events that passed that night, demonstrating perhaps a part of the forgetting and re-membering process that underpins many a local legend or historical folk-tale.
-
-$\pagebreak$
 
 ```{admonition} The Folly Hall Fight, Philip Ahier, 1942
 :class: dropdown
@@ -1039,8 +1035,6 @@ OBSERVER
 
 Even though it had already been published earlier that week (Monday August 04, 1817) in the *Intelligencer*, Thomas Atkinson's letter to the editor of the *Mercury* was not published in the *Leeds Mercury* until Saturday 09 August, 1817. That issue also included a discussion Hearnshaw's declaration and the various responses to it, including one from Mr. R. Haigh Allen, as well as the one from Thomas Atkinson:
 
-$\pagebreak$
-
 ```{admonition} Prosecution of the Huddersfield rioters, August, 1817
 :class: dropdown
 *Leeds Mercury*, [Saturday 09 August 1817](https://www.britishnewspaperarchive.co.uk/viewer/bl/0000076/18170809/007/0003).
@@ -1130,8 +1124,6 @@ Though this certainly was *the fatal effect of the misunderstanding in question*
 
 And also as promised, on the treatment of David Alexander during the Folly-hall trial:
 
-$\pagebreak$
-
 ```{admonition} Sarcastic Attacks on Mr. David Alexander, August 1817
 :class: dropdown
 *Leeds Intelligencer*, [Monday 11 August 1817](https://www.britishnewspaperarchive.co.uk/viewer/BL/0000268/18170811/023/0003).
@@ -1145,7 +1137,5 @@ Besides resorting to every artifice of the law, in favour of their clients (with
 Mr. Alexander had been, on two occasions, in the discharge of his duty, not as an ordinary soldier, but as an armed citizen, exposing himself for the protection of his neighbours, and the preservation of the public peace, *fired at in one night*. Some cowardly ruffian shot at him, under cover of the night, while he was on foot, going for his horse; and he was afterwards exposed, in front, to the fire of the insurgents at Folly-hall-bridge, where his horse was severely wounded under him. He had displayed a spirit and intrepidity which entitle him to respect, and which must receive the approbation and thanks of every man who is disposed to appreciate those qualities when exhibited in a good cause; and, the only return which was made him for having twice exposed his life to imminent hazard, for the protection of those who were quietly and comfortably asleep in their beds, was to be held up as an object of ridicule to the Court of Justice in which he was called upon to perform another service to the public, by giving his evidence on a case of flagrant public outrage;— to be jeered at about the "sanguinary battle of Folly-hall-bridge in which he had been *engaged*"— *rigged* as the term is, about his "military tactics"—and ironically asked if he had obtained his martial skill and courage at *Waterloo!*
 
 ```
-
-$\pagebreak$
 
 *I haven't been able to locate (yet?!) a scan of the Saturday August 16, 1817 edition of the `Leeds Mercury`, so it is not clear whether there was any response there to content in the `Intelligencer` of Monday 11 August, 1817.*

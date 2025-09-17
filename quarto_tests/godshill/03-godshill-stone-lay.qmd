@@ -58,9 +58,6 @@ place,
 > At the work they had done, gaily homewards they went  
 > To supper, and after to bed.  
 
-::: {pagebreak}
-:::
-
 > Next morning betimes they arose with the lark  
 > And set forth to work with a will.  
 > But lo! when they got there, 'twas level with ground.  
@@ -133,9 +130,6 @@ place,
 > He lifted the Devil a furlong or so  
 > With a couple of right lusty kicks.  
 
-::: {pagebreak}
-:::
-
 > Whereat the parishioners fell on their knees  
 > And lauded the Saint to the sky.  
 > So Boniface blessed them in orthodox way.  
@@ -171,9 +165,6 @@ place,
 > And the site where the building in future will stand,  
 > According to God's and your saintly command,  
 > Shall be known by the name of GODSHILL.'  
-
-::: {pagebreak}
-:::
 
 > The church there to-day on the top of the mound  
 > Lifts its pinnacled Tower to sky  
