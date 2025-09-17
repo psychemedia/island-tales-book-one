@@ -1,8 +1,8 @@
 # The Blanketeers — Attempted Tellings
 
-The following was my first attempt at a version of the Blanketeers' story told  tongue-in-cheek in the style of a traditional fairy tale, and based on the principle that the story is what's left when the facts have been forgotten. It doesnlt really work, but as a quick experiment, it was fin to try, and might be worth considereing again as I get to know the sotry better...
+The following was my first attempt at a version of the Blanketeers' story told  tongue-in-cheek in the style of a traditional fairy tale, and based on the principle that the story is what's left when the facts have been forgotten. It doesn't really work, but as a quick experiment, it was fun to try, and might be worth considering again as I get to know the story better...
 
-> Once, there was a King; a *mad* King; the King was so infirm that his son, the Prince, ruled in his place; but the prince liked to drink, and the prince liked to party; and the prince was a profligate, and the prince just had to have those beatiful shoes, and that fabulous jacket. In short, the prince was a full time fasshion victim playboy. With terrible taste. And so, the King's Ministers ran the country instead.
+> Once, there was a King; a *mad* King; the King was so infirm that his son, the Prince, ruled in his place; but the prince liked to drink, and the prince liked to party; and the prince was a profligate, and the prince just had to have those beatiful shoes, and that fabulous jacket. In short, the prince was a full time fashion victim playboy. With terrible taste. And so, the King's Ministers ran the country instead.
 >
 > For a long time, the kingdom had been fighting many wars, and even though the wars were over now, the people were still very poor. And their discontent lead to angry mobs and riots.
 >
@@ -10,7 +10,7 @@ The following was my first attempt at a version of the Blanketeers' story told  
 >
 > This did not go down well with common people in the kingdom.
 >
-> Far away from the city where the King and Prince lived, along with all the Ministers, but still within the kingdom, was another city. To walk from one to the other could take a week or more to walk — this is once, remember, and not everyone had a horse — and that was if you were a good walker.
+> Far away from the city where the King and Prince lived, along with all the Ministers, but still within the kingdom, was another city. To walk from one to the other could take a week or more — this is *once*, remember, and not everyone had a horse — and that was if you were a good walker.
 >
 > One day, the people in the second city heard that a great mass of barbarians from the wastelands of the North were on a long march to the capital to complain to the King — or the Prince, or the Ministers, or to anyone who would listen, about how downtrodden they were.
 >
@@ -52,7 +52,7 @@ The following was my first attempt at a version of the Blanketeers' story told  
 
 Rather than simply throw that version completely away and start again, I changed tone and did a quick iteration of it:
 
-> It was the end of the Ludding times, and the time of growing calls for Parliamentary reform. In Manchester, despite being a growing metropolis, there was Parliamentary representation. And the people there were not happy about that, not happy at all. There were rumours that folk in Scotland were similarly minded, and that a march had started that was going to make its way to London to take *their* protest directly to Government. No more faffing about with letters: a demand for change from the people themselves. A barbarian hoard on the rampage, demonstrating their discntent in a way that could not be ignored.
+> It was the end of the Ludding times, and the time of growing calls for Parliamentary reform. In Manchester, despite being a growing metropolis, there was Parliamentary representation. And the people there were not happy about that, not happy at all. There were rumours that folk in Scotland were similarly minded, and that a march had started that was going to make its way to London to take *their* protest directly to Government. No more faffing about with letters: a demand for change from the people themselves. A barbarian hoard on the rampage, demonstrating their discontent in a way that could not be ignored.
 > 
 > Or perhaps not.
 > 
@@ -64,7 +64,7 @@ Rather than simply throw that version completely away and start again, I changed
 > 
 > They all knew that the Ministers had no love for poor folk like themselves, of course. And neither did the local Magistrates, dirty smelly rabble that they were — the people, that is, not the Magistrates: they probably smelled beautiful and probably had a bath at least once a month —  and everyone knew that the soldiers would as likely as not be set on them if they looked like a mob.
 > 
-> So they were a bit more clever about it: the word on the street was that if you only gathered in small groups of not more ten people or so, with a separate copy of the petition for each group, or even each person, even if that meant each petition only had a few names on it, or even just one name on it, then there was nothing the dsoldiers could do to stop you. So they would march in small groups, exaclty like that, because then nobody could argue with them.
+> So they were a bit more clever about it: the word on the street was that if you only gathered in small groups of not more ten people or so, with a separate copy of the petition for each group, or even each person, even if that meant each petition only had a few names on it, or even just one name on it, then there was nothing the soldiers could do to stop you. So they would march in small groups, exactty like that, because then nobody could argue with them.
 > 
 > The journey would be a long one, though: a hundred and fifty miles or more, so several days walk, and several nights where they'd have to find and make camp. So they'd each take a blanket; and as a badge, by way of marking out their cause, the petitions would be pinned to the blankets; and for everyone who wasn't going on the march? Well, they would raise what little money they could so the marchers could buy some small amount of food each day.
 > 
@@ -74,9 +74,9 @@ Rather than simply throw that version completely away and start again, I changed
 > 
 > Becuase for now, in this time, in this story, the troops turned instead, and went after the marchers.
 > 
-> They had been expecting their leaders to catch up with them later in the day, along with the money colection they need to support them and pay their way as they marched south.
+> They had been expecting their leaders to catch up with them later in the day, along with the money collection they need to support them and pay their way as they marched south.
 > 
-> Instaed, the soldiers came along, on their horses, with swords and sabers and who knows what, and the marchers — well, a blanket didn't work so well as armour, so it's not hard to work out who came off worst.
+> Instead, the soldiers came along, on their horses, with swords and sabers and who knows what, and the marchers — well, a blanket didn't work so well as armour, so it's not hard to work out who came off worst.
 > 
 > Some of the marchers were split up and sent this way, others were sent that way, and several hundred found themselves in jail for several nights, before being released.
 > 
@@ -88,7 +88,7 @@ Rather than simply throw that version completely away and start again, I changed
 > 
 > And so they went free.
 > 
-> At this point, you may be wondering what happened to the "purseman", who had been charged with bringing the money collected at the meeting to help pay the way — for the food and the accommodation — of the petitioners as thy went alonfg the march?
+> At this point, you may be wondering what happened to the "purseman", who had been charged with bringing the money collected at the meeting to help pay the way — for the food and the accommodation — of the petitioners as they went along the march?
 > 
 > Well, the story as I've heard it tell, was that a pretty penny in funds was raised. But that when he'd set off to catch up with the marchers, he'd taken a wrong turn and got lost. And only returned when the money had been spent...
 > 
