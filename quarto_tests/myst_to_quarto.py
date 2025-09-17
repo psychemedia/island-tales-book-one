@@ -93,6 +93,44 @@ def convert_raw_latex(content: str) -> str:
     return re.sub(pattern, r"```{=latex}\n\1\n```", content, flags=re.DOTALL)
 
 
+def convert_myst_images(content: str) -> str:
+    """Convert MyST image blocks to Quarto format."""
+    pattern = r"```{image}\s+([^\n]+)\n((?::[^:]+:.*\n)*?)```"
+
+    def replace_image(match):
+        image_path = match.group(1).strip()
+        options_block = match.group(2).strip()
+
+        # Parse options
+        alt_text = ""
+        attributes = []
+
+        for line in options_block.split("\n"):
+            line = line.strip()
+            if line.startswith(":alt:"):
+                alt_text = line.replace(":alt:", "").strip()
+            elif line.startswith(":align:"):
+                align_value = line.replace(":align:", "").strip()
+                attributes.append(f'fig-align="{align_value}"')
+            elif line.startswith(":width:"):
+                width_value = line.replace(":width:", "").strip()
+                attributes.append(f'width="{width_value}"')
+            elif line.startswith(":height:"):
+                height_value = line.replace(":height:", "").strip()
+                attributes.append(f'height="{height_value}"')
+
+        # Build Quarto format
+        quarto_image = f"![{alt_text}]({image_path})"
+        if attributes:
+            attr_string = " ".join(attributes)
+            quarto_image += f"{{{attr_string}}}"
+
+        return quarto_image
+
+    return re.sub(pattern, replace_image, content, flags=re.DOTALL)
+
+
+
 def convert_math_blocks(content: str) -> str:
     """Placeholder for math-specific conversions if needed."""
     return content
@@ -115,6 +153,7 @@ def convert_file_content(content: str) -> str:
     content = convert_yaml_frontmatter(content)
     content = convert_admonitions(content)
     content = convert_raw_latex(content)
+    content = convert_myst_images(content)
     content = convert_pagebreaks(content)
     content = convert_math_blocks(content)
     content = convert_directives(content)
