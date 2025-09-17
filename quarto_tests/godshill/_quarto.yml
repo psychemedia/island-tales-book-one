@@ -33,7 +33,7 @@ format:
     toc-depth: 1
     # Include the shared LaTeX styling
     include-in-header: 
-      - ../shared-book-style.tex
+      - ../island-tales-shared-book-style.tex
 
   docx:
     toc: false
