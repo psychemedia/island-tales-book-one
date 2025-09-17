@@ -1,6 +1,6 @@
 # A Legend of Puckaster
 
-__*As originally told by Abraham Elder, *A Legend of Puckaster*, in Bentley's Miscellany, [volume 5](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/368/mode/2up), 1839. *The footnotes also appeared in the original version.*__
+__*As originally told by Abraham Elder, "A Legend of Puckaster", in Bentley's Miscellany, [volume 5](https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/368/mode/2up), 1839. The footnotes also appeared in the original version.*__
 
 A LEGEND OF PUCKASTER,  
 ISLE OF WIGHT.  

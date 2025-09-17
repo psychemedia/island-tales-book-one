@@ -137,7 +137,7 @@
 %\renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
 %\renewcommand{\sphinxupquote}[1]{#1}
 \let\oldtexttt\texttt        % save original \texttt
-\renewcommand{\texttt}[1]{\footnotesize\oldtexttt{#1}}
+\renewcommand{\texttt}[1]{{\footnotesize\oldtexttt{#1}}}
 
 % Custom page styles with fancyhdr
 \usepackage{fancyhdr}
@@ -235,6 +235,8 @@
 \renewcommand{\chaptermark}[1]{%
   \markboth{#1}{}}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
 
 % Apply normal page style (equivalent to fancy in Quarto)
 \pagestyle{normal}
@@ -365,9 +367,17 @@ originally told as part of the \emph{'Tis Tales} storytelling set,
 --Tony ``Monty'' Hirst\\
 Apse Heath, September 2022.
 
-\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please vist montystoryteller.org}
+\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please visit montystoryteller.org}
 
-\texttt{bqwiazt\ images/barberspicturesq00barbiala\_0191.jpg\ :alt:\ Puckaster\ Cove,\ in\ Barber\textquotesingle{}s\ Picturesque\ :align:\ center}
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.75\linewidth,height=\textheight,keepaspectratio]{images/barberspicturesq00barbiala_0191-cropped.jpg}
+
+}
+
+\caption{Puckaster Cove, in Barber's Picturesque}
+
+\end{figure}%
 
 \emph{Puckaster Cove, in Barber's picturesque illustrations, of the Isle
 of Wight, comprising views of every object of interest on the island,
@@ -377,10 +387,10 @@ of Wight, comprising views of every object of interest on the island,
 
 \chapter{A Legend of Puckaster}\label{a-legend-of-puckaster}
 
-\_\_\emph{As originally told by Abraham Elder, }A Legend of
-Puckaster\emph{, in Bentley's Miscellany,
+\textbf{\emph{As originally told by Abraham Elder, ``A Legend of
+Puckaster'', in Bentley's Miscellany,
 \href{https://archive.org/details/sim_bentleys-miscellany_1839-07_6/page/368/mode/2up}{volume
-5}, 1839. }The footnotes also appeared in the original version.*\_\_
+5}, 1839. The footnotes also appeared in the original version.}}
 
 A LEGEND OF PUCKASTER,\\
 ISLE OF WIGHT.\\

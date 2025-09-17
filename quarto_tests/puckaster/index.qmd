@@ -21,12 +21,9 @@ Here, then, is that tale re-published, along with my own version of it, original
 Apse Heath, September 2022.
 
 ```{=latex}
-\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please vist montystoryteller.org}
+\let\thefootnote\relax\footnotetext{To keep up to date with traditional storytelling events and activities on the Isle of Wight, make sure you check the `Tis Tales website — tistales.org.uk — regularly. For more storynotes publications, please visit montystoryteller.org}
 ```
 
-```{image} images/barberspicturesq00barbiala_0191.jpg
-:alt: Puckaster Cove, in Barber's Picturesque
-:align: center
-```
+![Puckaster Cove, in Barber's Picturesque](images/barberspicturesq00barbiala_0191-cropped.jpg){width="75%" fig-align="center" fig-pos="H"}
 
 *Puckaster Cove, in Barber's picturesque illustrations, of the Isle of Wight, comprising views of every object of interest on the island, 1834.*
