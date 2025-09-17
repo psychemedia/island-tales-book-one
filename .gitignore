@@ -2,3 +2,4 @@
 _build/
 amazon-kdp-covers/*.aux
 amazon-kdp-covers/*.log
+*_KC/
