@@ -35,12 +35,11 @@
   {\Huge}
 \titlespacing*{\chapter}{0pt}{0pt}{20pt}
 
-
 % Code font size (Sphinx compatibility)
 %\renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
 %\renewcommand{\sphinxupquote}[1]{#1}
 \let\oldtexttt\texttt        % save original \texttt
-\renewcommand{\texttt}[1]{\footnotesize\oldtexttt{#1}}
+\renewcommand{\texttt}[1]{{\footnotesize\oldtexttt{#1}}}
 
 % Custom page styles with fancyhdr
 \usepackage{fancyhdr}
