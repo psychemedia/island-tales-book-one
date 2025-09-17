@@ -29,7 +29,7 @@
 % Chapter formatting
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries}
+  {\normalfont\huge\bfseries\hyphenpenalty=10000\exhyphenpenalty=10000}
   {}
   {0pt}
   {\Huge}
@@ -137,6 +137,8 @@
 \renewcommand{\chaptermark}[1]{%
   \markboth{#1}{}}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
 
 % Apply normal page style (equivalent to fancy in Quarto)
 \pagestyle{normal}
