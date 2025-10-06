@@ -4,7 +4,7 @@ I was originally brought to the tale of the Pentrich uprising by way of a song o
 
 *In my dreams, I get to tell my protest set at a matinee show somewhere in the vicinity of an FD gig...*
 
-In researching the tale, it wasn't long before I calso came across the Folly Hall uprising, in Huddersfield, which was also new to me. As the events were connected, it seemed to make sense to make a single, short tale that combined them, and this was the original result...
+In researching the tale, it wasn't long before I also came across the Folly Hall uprising, in Huddersfield, which was also new to me. As the events were connected, it seemed to make sense to make a single, short tale that combined them, and this was the original result...
 
 ```{admonition} A telling...
 :class: dropdown
@@ -22,7 +22,7 @@ Around the country: secret gatherings; meetings, and mutterings. Parliamentary r
 
 From the Midland counties of Derbyshire and Nottinghamshire to the West Riding of Yorkshire, a tall, fair-headed, red-whiskered man, well-dressed, attends many of the meetings. He brings news: of sentiment in London; of the planned actions elsewhere around the country. His name? Mr William Oliver. His conversations with two local committees in particular, are notable: one in Huddersfield, in the West Riding of Yorkshire; the other in Pentrich, near Nottingham.
 
-The story told in each case is the same: as the State Trial begins in London for the men accused of leading the riot there in December, there will be: an insurrection; there will be: a march, to the metroplis; and there will be: change.
+The story told in each case is the same: as the State Trial begins in London for the men accused of leading the riot there in December, there will be: an insurrection; there will be: a march, to the metropolis; and there will be: change.
 
 Weapons will be required: in part, from the garrisons, quickly captured, and rendered ineffective. No blood will be spilled. Debts will be relieved; industries will be nationalised; and Parliament will be reformed. The date is set: Sunday, June the 8th, 1817.
 

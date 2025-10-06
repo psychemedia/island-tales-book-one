@@ -6,7 +6,7 @@ The tale begins with the raising of funds to build a new Church, and a search fo
 
 The man who farms the land, a poor franklin, or freeholder, is informed by a monk from the Abbey of the great honour to be bestowed upon him. But rather than praising the Lord, the man protests: "I'm not a pious man, sir" he says, "it would not do to put the Church there, and what would I do, it's my best bit of land", and on and on he goes. And it's true. He's not a pious man at all. Indeed, he'd rather go out of his way to avoid a confession, rather than to make one, and on the occasions when a certain passing friar would take his confession, well, it tended to be after supper, and after a pint or two. And if penance were called for, well then, the ale might turn a little sour, or be offered no more.
 
-"My neighbours, sir, my neighbours. They are both men of God, sir, both men of God, good men, not a sinner like  me. And their land is surely holier than mine, sir. And closer to god, closer to God" , and he pointed up the hill to his neighbour's land.
+"My neighbours, sir, my neighbours. They are both men of God, sir, both men of God, good men, not a sinner like me. And their land is surely holier than mine, sir. And closer to god, closer to God" , and he pointed up the hill to his neighbour's land.
 
 But the monk *wouldn't* be persuaded, indeed, he *couldn't* be persuaded, because the choice had been made: "your unholy nature is no matter", he said, "when the foundation stone is laid, you will be absolved of your sins". And even as the man protested that his neighbours were more pious than he, more deserving, the monk walked away without even a promise of compensation.
 
@@ -14,7 +14,7 @@ The stones to begin the construction duly arrived from a local quarry, the site 
 
 Just as the men really were starting to doubt that they had right field, the owner of the land at the top of the hill turned up, and he was in angry mood, a gravely offended mood. "What in the Devil's name are you doing?" he said. "I've heard tell that the Church will take a man's land for no compensation to put a Church on it, but to start the work without even telling the man, that's not right. That's not right at all", and on and on he went.
 
-Now, the architect had no idea what the Franklin's neighbour was talking about. "What am I talking about? What am I talking about? That's what I'm talking about...", and he pointed up the hill; and then he started to drag them up the slope, "come on, come on"...  Well, they hadn't gone far when they saw the stone, and the pegs, and the ropes, laid out exactly as they had been before; only this time, on top of the hill.
+Now, the architect had no idea what the Franklin's neighbour was talking about. "What am I talking about? What am I talking about? That's what I'm talking about...", and he pointed up the hill; and then he started to drag them up the slope, "come on, come on"... Well, they hadn't gone far when they saw the stone, and the pegs, and the ropes, laid out exactly as they had been before; only this time, on top of the hill.
 
 Well, they immediately set to, and with the other masons and builders who had by now started to arrive and follow the commotion, they took everything back down the hill, and put it back how it was. Just in time for the Bishop and his retinue to arrive, the Bishop, seated, royally, looking as princely as he could, given that he was sitting on a donkey.
 

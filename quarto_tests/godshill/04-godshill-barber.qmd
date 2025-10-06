@@ -20,7 +20,7 @@ An even more religious telling is provided in "The Isle of Wight" by George Clin
 
 > The people of this village, having long lived in pagan darkness, were at length visited by a holy man who came and lived among them. He told the wondrous story of Divine self-sacrifice, and taught the Catholic religion of love and mercy. This so touched the hearts of the people that they cast down their blood-stained altars and acknowledged the true God.  
 >  
-> Then cried the elders of the village: "We will build a temple to His honour, where we and our children's children may worship, and by which generations yet  unborn may know how the Saxon reverenced God."  
+> Then cried the elders of the village: "We will build a temple to His honour, where we and our children's children may worship, and by which generations yet unborn may know how the Saxon reverenced God."  
 >  
 > They chose, therefore, a level place, and all day long they wrought and toiled, and when night came they rested from their labours. But on the morrow, when borne during the night by invisible hands to the top of a round knoll.  
 >  

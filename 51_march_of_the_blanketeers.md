@@ -1,8 +1,8 @@
 # The Blanketeers — Attempted Tellings
 
-The following was my first attempt at a version of the Blanketeers' story told  tongue-in-cheek in the style of a traditional fairy tale, and based on the principle that the story is what's left when the facts have been forgotten. It doesn't really work, but as a quick experiment, it was fun to try, and might be worth considering again as I get to know the story better...
+The following was my first attempt at a version of the Blanketeers' story told tongue-in-cheek in the style of a traditional fairy tale, and based on the principle that the story is what's left when the facts have been forgotten. It doesn't really work, but as a quick experiment, it was fun to try, and might be worth considering again as I get to know the story better...
 
-> Once, there was a King; a *mad* King; the King was so infirm that his son, the Prince, ruled in his place; but the prince liked to drink, and the prince liked to party; and the prince was a profligate, and the prince just had to have those beatiful shoes, and that fabulous jacket. In short, the prince was a full time fashion victim playboy. With terrible taste. And so, the King's Ministers ran the country instead.
+> Once, there was a King; a *mad* King; the King was so infirm that his son, the Prince, ruled in his place; but the prince liked to drink, and the prince liked to party; and the prince was a profligate, and the prince just had to have those beautiful shoes, and that fabulous jacket. In short, the prince was a full time fashion victim playboy. With terrible taste. And so, the King's Ministers ran the country instead.
 >
 > For a long time, the kingdom had been fighting many wars, and even though the wars were over now, the people were still very poor. And their discontent lead to angry mobs and riots.
 >
@@ -62,9 +62,9 @@ Rather than simply throw that version completely away and start again, I changed
 > 
 > So they had a meeting. And there was standing on carts, and rousing speeches, and they decided they *would* march to London, a week's walk away, and petition him themselves.
 > 
-> They all knew that the Ministers had no love for poor folk like themselves, of course. And neither did the local Magistrates, dirty smelly rabble that they were — the people, that is, not the Magistrates: they probably smelled beautiful and probably had a bath at least once a month —  and everyone knew that the soldiers would as likely as not be set on them if they looked like a mob.
+> They all knew that the Ministers had no love for poor folk like themselves, of course. And neither did the local Magistrates, dirty smelly rabble that they were — the people, that is, not the Magistrates: they probably smelled beautiful and probably had a bath at least once a month — and everyone knew that the soldiers would as likely as not be set on them if they looked like a mob.
 > 
-> So they were a bit more clever about it: the word on the street was that if you only gathered in small groups of not more ten people or so, with a separate copy of the petition for each group, or even each person, even if that meant each petition only had a few names on it, or even just one name on it, then there was nothing the soldiers could do to stop you. So they would march in small groups, exactty like that, because then nobody could argue with them.
+> So they were a bit more clever about it: the word on the street was that if you only gathered in small groups of not more ten people or so, with a separate copy of the petition for each group, or even each person, even if that meant each petition only had a few names on it, or even just one name on it, then there was nothing the soldiers could do to stop you. So they would march in small groups, exactly like that, because then nobody could argue with them.
 > 
 > The journey would be a long one, though: a hundred and fifty miles or more, so several days walk, and several nights where they'd have to find and make camp. So they'd each take a blanket; and as a badge, by way of marking out their cause, the petitions would be pinned to the blankets; and for everyone who wasn't going on the march? Well, they would raise what little money they could so the marchers could buy some small amount of food each day.
 > 
@@ -72,7 +72,7 @@ Rather than simply throw that version completely away and start again, I changed
 > 
 > Back at Petersfield, emotions started to get heated in the crowd. The army came in. The ringleaders were arrested. And the crowd.... By now, some of you may be thinking: and now the troops rode in, with their sabres swinging, and their swords stabbing, and there was the massacre, the famous Peterloo massacre. But this wasn't then — that was a couple of years later, and another story for another day.
 > 
-> Becuase for now, in this time, in this story, the troops turned instead, and went after the marchers.
+> Because for now, in this time, in this story, the troops turned instead, and went after the marchers.
 > 
 > They had been expecting their leaders to catch up with them later in the day, along with the money collection they need to support them and pay their way as they marched south.
 > 

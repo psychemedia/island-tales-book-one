@@ -40,7 +40,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[inner=0.9in,outer=0.5in,top=1in,bottom=1in]{geometry}
+\usepackage[inner=0.8in,outer=0.5in,top=0.9in,bottom=0.9in]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -96,9 +96,10 @@
 \makeatother
 
 % Shared LaTeX styling for book projects
-% Save as: shared-book-style.tex
+% Save as: island-tales-shared-book-style.tex
 
 % Document initialization (equivalent to your \AtBeginDocument block)
+\usepackage{fncychap}
 \usepackage{geometry}
 \AtBeginDocument{
   \date{}
@@ -110,8 +111,11 @@
   \setlength{\headsep}{16pt}
 
   \clubpenalty=10000
-  \widowpenalty=10000
+  \widowpenalty=100000
   \displaywidowpenalty=10000
+  \tolerance=1000
+  \hyphenpenalty=50
+  \exhyphenpenalty=50
 
   \let\origtableofcontents\tableofcontents
   \renewcommand{\tableofcontents}{%
@@ -126,12 +130,11 @@
 % Chapter formatting
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries}
+  {\normalfont\huge\bfseries\hyphenpenalty=10000\exhyphenpenalty=10000}
   {}
   {0pt}
   {\Huge}
-\titlespacing*{\chapter}{0pt}{0pt}{20pt}
-
+\titlespacing*{\chapter}{0pt}{-10pt}{20pt}
 
 % Code font size (Sphinx compatibility)
 %\renewcommand{\sphinxcode}[1]{\texttt{\footnotesize #1}}
@@ -194,38 +197,7 @@
     }
   \end{flushright}
 
-  \newpage
-  \thispagestyle{plain}
-  \thispagestyle{empty}
-
-  \makeatletter
-
-  \vspace*{\fill}
-
-  \begin{center}
-  %{\Large \textbf{\@title}}\\[1em]
-  {\large \textbf{\textit{A Storynotes Collection}}}\\[2em]
-  \end{center}
-
-  \vfill
-
-  \begin{center}
-  \large \textit{montystoryteller.org}
-  \end{center}
-
-  \vspace{2cm}
-
-  \begin{center}
-  \textit{Copyright {\copyright} Anthony Hirst, 2025.\linebreak\linebreak This work may include transcripts of nineteenth century newspaper articles contemporary to the events described, sourced from the British Newspaper Archive, and transcribed by the author.\linebreak\linebreak This work may include transcripts of out of copyright works published prior to 1920 sourced from the Internet Archive.\linebreak\linebreak This work may include other openly licensed materials, acknowledged at the point of use.
-  }
-  \end{center}
-
-  \vspace*{\fill}
-
-  \begin{center}
-    \textit{A Storynotes publication from montystoryteller.org}
-  \end{center}
-  \makeatother
+  \input{../storynotes_copyright}
 
   \setcounter{footnote}{0}
   \let\thanks\relax\let\maketitle\relax
@@ -1316,9 +1288,7 @@ day-time was conveyed by evil influences to a remote situation at night.
 The Godshill legend is a variant of this group.
 \end{quote}
 
-\emph{Original copies of the above works can be found in the Castle
-Museum library at Carisbrooke Castle. The collection is viewable by
-appointment.}
+\let\thefootnote\relax\footnotetext{\textit{Original copies of the above works can be found in the Castle Museum library at Carisbrooke Castle. The collection is viewable by appointment.}}
 
 \bookmarksetup{startatroot}
 

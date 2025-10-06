@@ -12,7 +12,7 @@ Elder used the preface of the book to provide some background, or so we are led 
 
 > It may appear singular that the present little volume, intended to illustrate the antiquities and traditions of the people of the Isle of Wight, should come from the pen of a stranger; and that the tales it contains should have been collected during the space of a short summer ramble. Fortune, however, has favoured me much, and I take this opportunity of returning my thanks to my friend, the well-known and justly celebrated antiquary, Mr. Winterblossom, for his most valuable contributions, without which this collection of Tales and Legends would have been but chaff.
 
-Rather unusually,  Mr Winterblossom's credentials are proved by what he has *not* achieved, specifically, publishing a collection of tales himself:
+Rather unusually, Mr Winterblossom's credentials are proved by what he has *not* achieved, specifically, publishing a collection of tales himself:
 
 > I must confess that I am rather a collector, compiler, or editor; though vanity (as some would term it) has induced me to call myself the author of the present work. I am but the wisp of straw that ties the fagot together. But it is not altogether vanity in me either: for I have repeatedly, though in vain, urged Mr. Winterblossom to undertake the task. But he said that he had once spent many years and infinite labour in preparing a work of deep erudition for the press. The public was ungrateful, and the work still remains unsold. Printer's ink he would never meddle with again; and then, added he with emphasis, taking me by the arm, "the printer will be paid, whether the work sells or not".
 
