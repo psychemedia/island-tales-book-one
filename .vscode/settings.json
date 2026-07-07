@@ -52,7 +52,7 @@
         "Winterblossom",
         "woolsorter"
     ],
-
+    "cSpell.minWordLength": 2,
     "cSpell.customDictionaries": {
         "iw-placenames": {
             "name": "IW placenames",
